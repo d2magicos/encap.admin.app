@@ -1,0 +1,30 @@
+.modal-content {
+    border: 3px solid rgb(60, 78, 133);
+}
+
+.modal-header {
+    background: rgb(60, 78, 133);
+    border-radius: 0;
+    border-bottom: 0;
+}
+
+.modal-header h5 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.atencion-img {
+    max-width: 200px;
+}
+
+@media screen and (max-width: 520px) {
+    .atencion-img {
+        width: 180px;
+    }
+}
+
+/* .modal-body {
+    background: linear-gradient(rgb(39, 41, 79), rgb(61, 80, 136), rgb(28, 83, 155));
+} */

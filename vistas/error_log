@@ -1,0 +1,600 @@
+[05-Jan-2022 18:19:31 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:19:31 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:20:53 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:20:53 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:22:00 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:22:00 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:22:02 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:22:02 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:22:03 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:22:03 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:22:44 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:22:44 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:29:18 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:29:18 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:29:41 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:29:41 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:30:01 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:30:01 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:30:03 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:30:03 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:30:07 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:30:07 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:30:21 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:30:21 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:30:52 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:30:52 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:30:55 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:30:55 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:31:15 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:31:15 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:38:41 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:38:41 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:39:07 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:39:07 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:39:07 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:39:07 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:39:07 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:39:07 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:39:07 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:39:07 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:39:09 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:39:09 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:39:13 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:39:13 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:39:42 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 18:39:42 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[05-Jan-2022 18:40:17 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/vistas/Conexion.php on line 4
+[05-Jan-2022 18:40:17 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/vistas/Conexion.php on line 6
+[05-Jan-2022 20:22:21 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[05-Jan-2022 20:22:21 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:31:50 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:31:50 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:40:19 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:40:19 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:43:35 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:43:35 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:44:21 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:44:21 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:45:53 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:45:53 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:45:55 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:45:55 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:45:58 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:45:58 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:50:52 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:50:52 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:50:57 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:50:57 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:51:17 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:51:17 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:52:30 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:52:30 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:53:02 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:53:02 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:53:10 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:53:10 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 08:56:16 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 08:56:16 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:02:29 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:02:29 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:02:36 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:02:36 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:03:05 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:03:05 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:10:45 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:10:45 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:10:57 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:10:57 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:11:07 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:11:07 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:19:42 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:19:42 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:21:38 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:21:38 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:24:31 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:24:31 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:25:39 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:25:39 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:25:58 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:25:58 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:26:20 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:26:20 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:31:12 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:31:12 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:31:33 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:31:33 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[06-Jan-2022 09:33:23 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 4
+[06-Jan-2022 09:33:23 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/configuraciones/Conexion.php on line 6
+[13-Jan-2022 17:13:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::ventasultimos_10dias() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php on line 38
+[13-Jan-2022 17:13:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::ventasultimos_10dias() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php on line 38
+[13-Jan-2022 17:13:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::ventasultimos_10dias() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php on line 38
+[13-Jan-2022 17:13:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::ventasultimos_10dias() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php on line 38
+[14-Jan-2022 11:42:58 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::formarecaudacion() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php on line 77
+[14-Jan-2022 11:43:06 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::formarecaudacion() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php on line 77
+[14-Jan-2022 11:43:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::formarecaudacion() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php on line 77
+[14-Jan-2022 11:43:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::formarecaudacion() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php on line 77
+[14-Jan-2022 11:44:14 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::formarecaudacion() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php on line 77
+[20-Jan-2022 08:55:27 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:55:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:55:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:55:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:55:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:56:03 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:56:19 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:57:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:58:12 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:58:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:58:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:58:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:58:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:58:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:58:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:58:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:58:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:59:05 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:59:06 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:59:23 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:59:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:59:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:59:34 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[20-Jan-2022 08:59:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/verlistamatricula.php on line 18
+[09-Feb-2022 12:03:07 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:03:11 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:03:25 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:03:25 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:03:43 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:04:25 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:04:26 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:04:38 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:04:41 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:07:43 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:07:55 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[09-Feb-2022 12:21:24 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 892
+[12-Feb-2022 12:57:54 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 288
+[12-Feb-2022 12:58:00 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 288
+[12-Feb-2022 12:58:30 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 291
+[12-Feb-2022 12:58:31 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 291
+[12-Feb-2022 12:58:35 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematriculadetallado.php on line 291
+[21-Feb-2022 18:17:58 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::cantidadpendienteenviofisico() in /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php on line 26
+[22-Mar-2022 22:20:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::totalproveedoresr() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php on line 19
+[22-Mar-2022 22:20:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::totalproveedoresr() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php on line 19
+[22-Mar-2022 22:25:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::totalproveedoresr() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php on line 19
+[22-Mar-2022 22:25:24 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula.php on line 910
+[22-Mar-2022 22:25:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::totalproveedoresr() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php on line 19
+[22-Mar-2022 22:55:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::totalproveedoresr() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php on line 19
+[23-Mar-2022 10:50:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::totalproveedoresr() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php on line 19
+[23-Mar-2022 10:52:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::totalproveedoresr() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php on line 19
+[23-Mar-2022 10:52:45 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::totalproveedoresr() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php on line 19
+[23-Mar-2022 10:52:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::totalproveedoresr() in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/reportematricula1.php on line 19
+[28-May-2022 12:15:42 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::notificacioncumplehoy() in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:12
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 12
+[28-May-2022 12:15:44 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::notificacioncumplehoy() in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:12
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 12
+[28-May-2022 12:15:46 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Consultas::notificacioncumplehoy() in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:12
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 12
+[21-Jul-2022 14:00:21 America/New_York] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/encapedu/sistemas.encap.edu.pe/vistas/importP.php on line 6
+[21-Jul-2022 14:00:21 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/encapedu/sistemas.encap.edu.pe/vistas/importP.php on line 18
+[03-Nov-2022 17:08:45 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:16:53 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:17:55 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:17:59 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:18:00 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:18:07 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:18:46 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:18:55 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:19:24 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:19:37 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:19:39 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:20:53 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:21:10 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:22:38 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:24:41 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:27:50 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:29:02 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:29:04 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:03 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:06 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:06 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:07 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:07 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:07 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:07 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:08 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:08 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:08 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:10 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:10 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:10 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:10 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:12 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:13 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:13 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:14 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:30:17 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:31:47 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:31:48 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:40:05 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:40:42 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:44:22 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:47:18 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/inicio.php(6): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:48:29 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:58:16 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:58:18 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 17:58:25 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/listamatricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 18:02:41 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 18:02:42 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 18:02:43 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 18:02:44 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 18:02:45 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 18:02:45 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 18:02:45 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 18:02:46 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 18:02:46 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13
+[03-Nov-2022 18:03:15 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php:13
+Stack trace:
+#0 /home/encapedu/sistemas.encap.edu.pe/vistas/matricula.php(12): require()
+#1 {main}
+  thrown in /home/encapedu/sistemas.encap.edu.pe/vistas/modulos/header.php on line 13

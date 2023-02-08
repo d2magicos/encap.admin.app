@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+}
+.tracking{
+    background-color: #07369e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.tracking__contenedor{
+    max-width: 800px;
+}
+.trackingImagen__contenedor{
+    display: flex;
+    justify-content: center;
+}
+.trackingForm__heading{
+    font-size: 25px;
+    text-align: center;
+}
+@media (min-width:768px){
+    .trackingForm__heading{
+        font-size: 35px;
+        padding: 0 100px;
+    }
+}
+.trackingBuscador{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+@media (min-width:768px){
+    .trackingBuscador{
+        flex-direction: row;
+        justify-content:center;
+        column-gap: 20px;
+    }
+}
+.trackingBuscador input,
+.trackingBuscador button{
+    padding: 0 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.trackingBuscador input:focus{
+    color: black;
+    background-color: #c0fbff;
+}
+.trackingBuscador button{
+    background-color: #28e4f0;
+    color: black;
+    font-weight: bold;
+    transition: background-color .3s ease;
+}
+.trackingBuscador button:hover{
+    background-color: #21aab4;
+}
+
+@media (min-width:768px){
+    .trackingBuscador input{
+        width: 450px;
+    }
+    .trackingBuscador button{
+        width: 150px;
+    }
+}
