@@ -1,0 +1,145 @@
+.modal-content {
+    border: 3px solid rgb(60, 78, 133);
+}
+
+.modal-header {
+    background: rgb(60, 78, 133);
+    border-radius: 0;
+}
+
+.modal-header h5 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.pdf-icon,
+.loading-icon,
+.pc-icon,
+.book-icon,
+.down-icon {
+    margin-right: .3rem;
+}
+
+.survey-container {
+    display: block;
+    position: relative;
+    *height: 430px;
+    overflow-x: hidden;
+}
+
+.satisfaction-survey .btnGuardar {
+    margin: 1rem 0;
+    padding: .5rem .8rem;
+    justify-content: end;
+    border: 2px solid gray;
+}
+
+.height {
+    height: 420px;  
+}
+
+.info-encuesta-container {
+    background: rgb(255, 241, 115);
+    border-radius: 8px;
+    padding: .6rem .8rem;
+    border-bottom: 3px solid rgb(229, 166, 56);
+}
+
+.satisfaction-survey h5,
+.satisfaction-survey p,
+.satisfaction-survey h6,
+.satisfaction-survey {
+    color: #000;
+    font-weight: 400;
+}
+
+.satisfaction-survey textarea {
+    *background-color: rgb(60, 78, 133);
+    color: #000;
+}
+
+.satisfaction-survey p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* .details-table {
+    display: none;
+} */
+
+.img-aula {
+    width: 240px;
+}
+
+.btn-icon {
+    width: 60px;
+}
+
+.swal-modal .swal-text {
+    text-align: center;
+}
+
+.encuesta-footer {
+    background: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .link {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    /*  */
+    .btn-face#btn-value1,
+    .btn-face#btn-value2,
+    .btn-face#btn-value3,
+    .btn-face#btn-value4,
+    .btn-face#btn-value5 {
+        background-size: 45px;
+        padding: 0;
+    }
+
+    .btn-face {
+        width: 45px;
+        height: 45px;
+    }
+
+    .btn-certificadonull {
+        display: block;
+    }
+    
+    .btn-aula {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    td, th {
+        padding: .7rem .5rem;
+    }
+
+    tr .colum-title {
+        font-size: 14px;
+    }
+
+    /* tr td {
+        text-align: left;
+    } */
+
+    .btn-table,
+    .btn-details,
+    .text-progress-button {
+        font-size: 12px;
+    }
+
+    .modal-content {
+        margin: 0 .7rem;
+    }
+
+    /* .btn-details {
+        text-align: center;
+    } */
+}

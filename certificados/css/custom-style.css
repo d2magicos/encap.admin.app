@@ -1,0 +1,324 @@
+.header {
+    background: rgb(60, 78, 133);
+    height: 65px;
+}
+
+.header-container {
+    height: 100%;
+    margin: auto;
+    *padding: .4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* menu */
+
+.main-menu {
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-menu .logo-encap {
+    width: 50px;
+    height: auto;
+    margin: 0 .5rem;
+    margin-right: 2rem;
+}
+
+.main-menu ul {
+    display: flex;
+    gap: 1.5rem;
+    *justify-content: end;
+}
+
+.main-menu li {
+    list-style: none;
+}
+
+.main-menu li.actived a {
+    color: skyblue;
+    font-weight: 600;
+}
+
+.main-menu a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.main-menu a:hover {
+    color: skyblue;
+}
+
+.help-container {
+    position: relative;
+}
+
+.aula-virtual-letrero {
+    display: inline-block;
+    position: absolute;
+    left: -190px;
+    width: 180px;
+    height: 90px;
+    background: rgb(42, 132, 201);
+    padding: .7rem;
+    border-radius: 0 0 8px 8px;
+    border-bottom: 2px solid #fff;
+}
+
+.aula-link:hover,
+.number-1:hover {
+    /* color: #000; */
+    font-weight: 600;
+}
+
+.numbers {
+    width: 210px;
+    height: 90px;
+    display: inline-block;
+    *background: rgb(42, 132, 201);
+    background: rgb(79, 187, 52);
+    border-radius: 0 0 8px 8px;
+    border-bottom: 2px solid #fff;
+    padding: .7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-title {
+    font-size: 14px;
+    color: #fff;
+}
+
+.number-1,
+.number-2 {
+    padding: .08rem 0;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.help-title {
+    padding: .17rem 0;
+    font-weight: 600;
+}
+
+/*  */
+
+.title-company {
+    font-weight: bold;
+}
+
+.main-info {
+    margin-bottom: 2rem;
+}
+
+.main-info h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: .2rem;
+}
+
+.user-info .details {
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 8px;
+    padding: 1.5rem;
+    padding-left: 2.5rem;
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, .15);
+}
+
+
+.btnMateriales {
+    border: 2px solid rgb(34, 38, 42);
+    background: rgb(34, 38, 42);
+}
+
+.btnAula {
+    border: 2px solid rgb(0, 105, 217);
+    background: rgb(0, 105, 217);
+}
+
+.btnMateriales:hover,
+.btnAula:hover {
+    background: none;
+    color: #fff;
+}
+
+
+
+body {
+    position: relative;
+    padding-bottom: 40px;
+    min-height: 100vh;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* footer */
+.footer-text {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* AYUDA */
+.tutorial-iframe {
+    width: 100%;
+    height: 450px;
+}
+
+/*  */
+
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .65rem .6rem;
+    border-radius: 8px;
+    border: 1px solid #000;
+    font-weight: 600;
+    
+}
+
+.button.btn-certificado {
+    background: red;
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+.button.btn-certificado:hover,
+.button.btn-encuesta:hover {
+    background: none;
+    color: #000;
+}
+
+
+.button.btn-certificado:hover,
+.button.btn-certificado:hover .fa-file-pdf {
+    color: red;
+}
+
+.button.btn-loading {
+    border: 3px solid rgb(243, 156, 18);
+    background: rgb(243, 156, 18);
+}
+
+.button.btn-loading:hover {
+    color: #fff;
+}
+
+.button.button.btn-loading .loading-icon,
+.fa-comment,
+.fa-file-pdf {
+    margin-right: 6px;
+}
+
+.button.btn-encuesta {
+    border: 3px solid rgb(0, 105, 217);
+    background: rgb(0, 105, 217);
+    cursor: pointer;
+}
+
+.button.btn-encuesta:hover {
+    color: rgb(0, 105, 217);
+}
+
+.button.btn-encuesta:hover .fa-comment {
+    color: rgb(0, 105, 217);
+}
+
+.spin {
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+.help-mobile-container {
+    display: none;
+    opacity: 0;
+}
+
+.help-mobile-container .help-mobile-button {
+    display: inline-block;
+    background: rgb(79, 187, 52);
+    border-bottom: 2px solid #fff;
+    width: 220px;
+    height: 85px;
+    border-radius: 8px;
+}
+
+/* responsive design */
+@media screen and (max-width: 992px) {
+    .links-container {
+        display: none;
+        opacity: 0;
+    }
+
+    .table-container {
+        padding: 3.5rem 0;
+    }
+
+    .links-container-mobile {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 992px) { 
+    .aula-virtual-letrero {
+        display: none;
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header-container {
+        text-align: center;
+    }
+
+    .help-container {
+        display: none;
+        opacity: 0;
+    }
+
+    .main-info h1 {
+        font-size: 2.5rem;
+    }
+
+    footer .footer-text {
+        font-size: 14px;
+    }
+    
+    .help-mobile-container {
+        display: block;
+        opacity: 1;
+    }
+
+    .tutorial-iframe {
+        width: 100%;
+        height: 320px;
+    }
+
+    .text-date {
+        font-size: 14px;
+    }
+
+    .text-context {
+        font-size: 15px;
+    }
+}

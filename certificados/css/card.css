@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+.user-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.medalla-image {
+    position: absolute;
+    width: 70px;
+    right: 10px;
+    top: 10px;
+    /* top: -10px;
+    right: 0; */
+}
+
+.user-card {
+    position: relative;
+    width: 100%;
+    max-width: 840px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.user-card .banner {
+    /* background-image: url("https://images.unsplash.com/photo-1545703549-7bdb1d01b734?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+    background-position: center;
+    background-repeat: no-repeat; */
+    background: rgb(63, 76, 125);
+    background-size: cover;
+    box-sizing: border-box;
+    padding: .35rem 0;
+}
+
+.marco {
+    display: inline-block;
+    background-color: #fff;
+    width: 7rem;
+    height: 7rem;
+    box-shadow: 0 0 .5rem .35rem rgba(0, 0, 0, .3);
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: .3rem;
+    padding: .5rem 0;
+}
+
+.user-card .banner .user-image {
+    width: 5.5rem;
+    
+}
+
+/* .card .banner svg:hover {
+    transform: translateY(50%) scale(1.3);
+} */
+
+.user-card .menu {
+    width: 100%;
+    height: 5.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    *position: relative;
+    box-sizing: border-box;
+}
+
+.user-card h2.name {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: .5rem 1rem;
+    margin: 0;
+}
+
+.user-card .user-details {
+    width: 80%;
+    background: rgba(46, 46, 46, .16);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: .5rem;
+    padding: .65rem 0;
+    margin-bottom: .8rem;
+    text-align: center;
+}
+
+.user-doc,
+.user-lugar {
+    color: rgb(181, 181, 181);
+}
+
+.user-card .title {
+    color: #a0a0a0;
+    font-size: .85rem;
+    text-align: center;
+    padding: 0 2rem 1.2rem;
+}
+
+/* .header-card {
+    border-bottom: 2px solid #000;
+} */
+
+.bod-card {
+    background: #fff;
+    padding-top: .7rem;
+    padding-bottom: 2.1rem;
+}
+
+.bod-card h2,
+.bod-card p {
+    color: #000;
+}
+
+.categoria {
+    color: rgb(98, 98, 98);
+}
+
+h3.categoria {
+    font-size: 32px;
+    padding: .5rem 0;
+}
+
+.line {
+    max-width: 560px;
+    height: 3px;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.616);
+    box-shadow: 0px 5px 10px #888888;
+}
+
+.course-text {
+    width: 80%;
+    padding: 0 1rem;
+    padding-top: .7rem;
+    padding-bottom: .5rem;
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'Lemon', cursive;
+}
+
+.text-date {
+    padding: .45rem 0;
+}
+
+.btnCertificado {
+    display: inline-block;
+    margin: 1rem;
+    padding: .7rem .8rem;
+    border-radius: 8px;
+    font-weight: 600;
+    background: rgb(242, 68, 70);
+    border: 2px solid rgb(242, 68, 70);
+}
+
+.btnCertificado:hover {
+    background: none;
+    border: 2px solid rgb(242, 68, 70);
+    color: #000;
+    font-weight: 600;
+}
+
+/* bg */
+.background {
+    width: 100%;
+    /* height: calc(100vh - 120px); */
+    background-image: url("../images/background.png");
+    /* height: 100%; */
+}
+
+.fa-comment {
+    margin-right: .35rem;
+}
+
+@media screen and (max-width: 992px) { 
+    .medalla-image {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .course-text {
+        padding-top: .6rem;
+    }
+
+    .medalla-image {
+        width: 50px;
+    }
+
+    .line {
+        max-width: 270px;
+    }
+}
