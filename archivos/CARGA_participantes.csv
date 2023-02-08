@@ -1,0 +1,16 @@
+tipo_persona;nombre;idtipo_documento;num_documento;telefono;telefono2;email;idpais;departamento;ciudad;direccion;fecha_cumple;condicion;;
+Participantes;LAVADO HINOJOSA, DIEGO ALBERTO;3;71207697;985394423;64000000;diego-lh23@outlook.com;2;JUNÍN;HUANCAYO;Jr. Antunez de Mayolo 135;23/09/1996;1;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;idtipo_documento;;;;;idpais;;;;;;;
+;;3;DNI;;;;1;Seleccionar;;;;;;
+;;4;RUC;;;;2;PERÚ;;;;;;
+;;5;CEDULA;;;;3;ECUADOR;;;;;;
+;;6;PASAPORTE;;;;4;COLOMBIA;;;;;;
+;;;;;;;5;ARGENTINA;;;;;;
+;;;;;;;6;PANAMÁ;;;;;;
+;;;;;;;7;PUERTO RICO;;;;;;
+;;;;;;;8;OTROS;;;;;;
+;;;;;;;9;BOLIVIA;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
