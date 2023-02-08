@@ -1,0 +1,568 @@
+.header {
+    background: rgb(60, 78, 133);
+    height: 65px;
+}
+
+.header-container {
+    height: 100%;
+    margin: auto;
+    *padding: .4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* menu */
+
+.main-menu {
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-menu .logo-encap {
+    width: 50px;
+    height: auto;
+    margin: 0 .5rem;
+    margin-right: 2rem;
+}
+
+.main-menu ul {
+    display: flex;
+    gap: 1.5rem;
+    *justify-content: end;
+}
+
+.main-menu li {
+    list-style: none;
+}
+
+.main-menu li.actived a {
+    color: skyblue;
+    font-weight: 600;
+}
+
+.main-menu a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.main-menu a:hover {
+    color: skyblue;
+}
+
+/* .mobile-header {
+    display: none;
+    opacity: 0;
+    width: 0;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-header i {
+    display: none;
+    width: 0;
+    opacity: 0;
+    font-size: 3rem;
+} */
+
+/* .help-container {
+    width: 210px;
+    height: 90px;
+    *background: rgb(42, 132, 201);
+    background: rgb(79, 187, 52);
+    border-radius: 0 0 8px 8px;
+    border-bottom: 2px solid #fff;
+    padding: .7rem;
+    justify-content: center;
+    align-items: center;
+} */
+
+.help-container {
+    position: relative;
+}
+
+.aula-virtual-letrero {
+    display: inline-block;
+    position: absolute;
+    left: -190px;
+    width: 180px;
+    height: 90px;
+    background: rgb(42, 132, 201);
+    padding: .7rem;
+    border-radius: 0 0 8px 8px;
+    border-bottom: 2px solid #fff;
+}
+
+.aula-link:hover,
+.number-1:hover {
+    /* color: #000; */
+    font-weight: 600;
+}
+
+.numbers {
+    width: 210px;
+    height: 90px;
+    display: inline-block;
+    *background: rgb(42, 132, 201);
+    background: rgb(79, 187, 52);
+    border-radius: 0 0 8px 8px;
+    border-bottom: 2px solid #fff;
+    padding: .7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-title {
+    font-size: 14px;
+    color: #fff;
+}
+
+.number-1,
+.number-2 {
+    padding: .08rem 0;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.help-title {
+    padding: .17rem 0;
+    font-weight: 600;
+}
+
+/*  */
+
+/* .company {
+
+} */
+
+.title-company {
+    font-weight: bold;
+}
+
+.main-info {
+    margin-bottom: 2rem;
+}
+
+.main-info h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: .2rem;
+}
+
+
+.user-info .details {
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 8px;
+    padding: 1.5rem;
+    padding-left: 2.5rem;
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, .15);
+}
+
+.details .user-name {
+    font-size: 20px;
+}
+
+.label {
+    color: skyblue;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.detail {
+    margin-bottom: 1rem;
+}
+
+.main-info .last-name {
+    font-weight: bold;
+}
+
+.main-info .city {
+    color: rgba(255, 255, 255, .5);
+}
+
+/* user-history */
+
+.table-container {
+    padding: 0 1rem;
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 8px;
+    padding: 1rem;
+    *box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .15);
+}
+
+th {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+td {
+    font-family: 'Manrope', sans-serif;
+}
+
+td, th {
+    padding: 1rem;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead tr {
+    border-bottom: 1px solid rgba(128, 128, 128, .34);
+}
+
+tr td {
+    font-size: 14px;
+}
+
+tbody tr:nth-child(odd) {
+    background: rgba(255, 255, 255, .04);
+    border-radius: 8px;
+}
+
+.btn-details {
+    font-size: 14px;
+    display: block;
+    padding: .5rem .3rem;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2.5px solid rgb(255 , 130, 45);
+    background: none;
+    *background: rgb(255 , 130, 45);
+    font-weight: 600;
+}
+
+.btn-details:hover {
+    *background: rgb(255 , 130, 45);
+    *color: #fff;
+    color: rgb(255 , 130, 45);
+    border: 2.5px solid rgb(255 , 130, 45);
+}
+
+/* link container */
+
+.links {
+    margin: 0rem 0;
+    justify-content: center;
+}
+
+.links .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links .card-link {
+    width: 95px;
+    height: 160px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, .15);
+}
+
+.links .card-link h4 {
+    padding: 0 .5rem;
+}
+
+.links .card-link .link-title {
+    border-radius: 5px 5px 0 0;
+    height: 85px;
+    display: grid;
+    align-items: center;
+    background: rgba(61, 80, 136, 1);
+    color: #fff;
+    font-size: .8rem;
+}
+
+.links .card-link .link-img {
+    max-height: 75px;
+    *height: 75px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.links .card-link h4 {
+    font-size: .9rem;
+    color: #000;
+}
+
+.btnMateriales,
+.btnAula {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: .5rem .3rem;
+    border-radius: 8px;
+    display: block;
+    *border: 1px solid #fff;
+}
+
+.btn-table {
+    font-size: 14px;
+    display: block;
+    padding: .5rem .3rem;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+    width: 100px;
+}
+
+.btn-success-cert {
+    background: rgb(242, 68, 70);
+    border: 2px solid rgb(242, 68, 70);
+}
+
+.btn-success-cert:hover {
+    background: none;
+    color: #fff;
+    border: 2px solid rgb(242, 68, 70);
+}
+
+/* btn en proceso */
+.btn-progress {
+    width: 100px;
+    height: 50px;
+}
+
+.btn-in-process {
+    height: 100%;
+    width: 100%;
+}
+
+.text-progress-button {
+    height: 100%;
+    width: 100px;
+    font-size: 14px;
+    display: block;
+    padding: .5rem .3rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn-answer-survey {
+    background: rgb(0, 105, 217);
+    border: 2px solid rgb(0, 105, 217);
+}
+
+.btn-answer-survey:hover {
+    background: none;
+    color: #fff;
+}
+
+.btnMateriales {
+    border: 2px solid rgb(34, 38, 42);
+    background: rgb(34, 38, 42);
+}
+
+.btnAula {
+    border: 2px solid rgb(0, 105, 217);
+    background: rgb(0, 105, 217);
+}
+
+.btnMateriales:hover,
+.btnAula:hover {
+    background: none;
+    color: #fff;
+}
+
+/* datatable */
+#tabla_filter {
+    display: none;
+    opacity: 0;
+}
+
+#tabla_info {
+    display: none;
+    opacity: 0;
+}
+
+#tabla_paginate {
+    padding: 1rem 0;
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}
+
+#tabla_paginate #tabla_previous,
+#tabla_paginate #tabla_next {
+    font-size: 16px;
+}
+
+#tabla_paginate .paginate_button.current {
+    font-weight: 600;
+}
+
+.links-container-mobile {
+    display: none;
+    opacity: 0;
+}
+
+.paginate_button {
+    padding: 0 .5rem;
+}
+
+.paginate_button:hover {
+    font-weight: 600;
+    color: skyblue;
+    cursor: pointer;
+}
+
+.paginate_button.current {
+    background: rgb(42, 132, 201);
+    border-radius: 50%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 40px;
+    min-height: 100vh;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* footer */
+.footer-text {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* AYUDA */
+.tutorial-iframe {
+    width: 100%;
+    height: 450px;
+}
+
+/* aula container mobile */
+.aula-mobile-container {
+    display: none;
+    opacity: 0;
+    *width: 100%;
+}
+
+/*.aula-mobile-button {
+    display: none;
+    opacity: 0;
+}*/
+
+.aula-mobile-container .aula-mobile-button {
+    display: inline-block;
+    background: rgb(79, 187, 52);;
+    border-bottom: 2px solid #fff;
+    width: 220px;
+    height: 85px;
+    border-radius: 8px;
+}
+
+.spin {
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+/* responsive design */
+@media screen and (max-width: 992px) {
+    .links-container {
+        display: none;
+        opacity: 0;
+    }
+
+    .table-container {
+        padding: 3.5rem 0;
+    }
+
+    .links-container-mobile {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 992px) { 
+    .aula-virtual-letrero {
+        display: none;
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header-container {
+        text-align: center;
+    }
+
+    .help-container {
+        display: none;
+        opacity: 0;
+    }
+    
+    .mat-aula {
+        display: none;
+    }
+
+    .table-container {
+        padding: 2.5rem 0;
+    }
+
+    .main-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .aula-mobile-container {
+        display: block;
+        opacity: 1;
+    }
+
+    th {
+        font-size: 16px;
+    }
+    
+    tr td {
+        font-size: 12px;
+    }
+
+    /*  */
+    .btn-face#btn-value1,
+    .btn-face#btn-value2,
+    .btn-face#btn-value3,
+    .btn-face#btn-value4,
+    .btn-face#btn-value5 {
+        background-size: 45px;
+    }
+
+    .btn-face {
+        width: 45px;
+        height: 45px;
+    }
+
+    footer .footer-text {
+        font-size: 14px;
+    }
+
+    .tutorial-iframe {
+        width: 100%;
+        height: 320px;
+    }
+}

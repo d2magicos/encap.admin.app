@@ -1,0 +1,84 @@
+.body{
+	height: 100vh;
+	  background-color: #07369E;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+  }
+  @media (min-width:768px){
+	.body{
+	  display: grid;
+	  grid-template-columns: repeat(5, 1fr);
+	  grid-template-rows: repeat(4, 1fr);
+	}
+	.contenedor__login{
+		grid-row: 2/4;
+		grid-column: 2/5;
+	  margin: 0 auto;
+  }
+  }
+  .login-box{
+	display: flex;
+	justify-content: center;
+	height: 63px;
+	margin-bottom: 50px;
+  }
+  .login-logo{
+	display: flex;
+	justify-content: center;
+	height: 63px;
+	margin: 0 auto;
+	width: 350px;
+	box-sizing: border-box;
+  }
+  .login-logo img{
+	text-align: center;
+	max-width: 300px;
+  }
+  .loginBox{
+	background-color:white;
+	border-radius: 20px;
+	margin:  0 auto;
+	margin: auto;
+	width: 350px;
+	height: 230px;
+	padding: 26px 25px;
+	box-sizing: border-box;
+  }
+  p.login__texto{
+	  color:#979595;
+	  font-weight: bold;
+  }
+  @media(max-width:480px){
+	form{
+		width:100%;
+	}
+}
+  input.entrada{
+	border-radius: 5px;
+	  padding: 5px 5px ;
+	  border: none;
+	  border: 2px solid #dcdcdc;
+	  outline: none;
+	  width: 100%;
+  }
+  input.entrada:focus{
+	  background-color: #dbe1ef;
+  }
+  .loginBox button[type="submit"]{
+	cursor:pointer;
+	border-radius:5px;
+	font-size:16px;
+	height:40px;
+	color: black;
+	  border: none;
+	  background-color: #28E4F0;
+	  width: 100%;
+	  transition:all .3s ease-in-out;
+  }
+  .loginBox button[type="submit"]:hover{
+	color: white;
+	  background-color: #195fb5;
+	  transform: scale(.99);
+  }

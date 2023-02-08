@@ -1,0 +1,115 @@
+/*estilos globales*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.clock {
+    position: relative !important;
+    padding: 10px !important;
+    text-align: right !important;
+   
+}
+
+/*fin estilos globales*/
+.intranet{
+    background: linear-gradient(rgb(39, 41, 79), rgb(61, 80, 136), rgb(28, 83, 155));
+    height: 100vh;
+    max-height: 100%;
+}
+.loginCard{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoencap__imagen{
+    margin:  0 auto;
+}
+.contenedor{
+    max-width: 1200px;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.intranetForm{
+    min-width: 300px;
+    max-width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.intranetEntrada__contenedor{
+    display: grid;
+    gap:10px
+}
+.intranetForm__heading{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+.intranetForm__span{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 0;
+    color: #999797;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.intranetEntrada__contenedor input{
+    border-radius: 5px;
+    text-align: center;
+}
+
+.intranetEntrada__btn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0;
+    color:rgb(255, 255, 255);
+    background-color: #000000;
+    margin-bottom: 10px;
+    transition:background-color .3s ease-in ;
+}
+.fa-sign-in{
+    color:black;
+}
+.intranetEntrada__btn:hover{
+    color: white;
+    background-color: #07369e;
+}
+.intranetEntrada__btn:hover .fa-sign-in{
+    color: white;
+}
+.intranetEntrada__texto{
+    text-align: center;
+    font-weight: bold;
+}
+
+.link{
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.link__whattsap{
+    font-size: 15px;
+    color:#07369e;
+    transition: .3s;
+    border-bottom: 1px solid transparent;
+}
+.link__whattsap:hover,
+.link__whattsap:active,
+.link__whattsap:visited{
+    color: #07369e;
+    border-bottom: 1px solid #07369e;
+}
+

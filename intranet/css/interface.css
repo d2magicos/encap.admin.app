@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-transform: uppercase;
+}
+.contenedor__intranet table{
+    font-size: 11px !important;
+}
+@media(min-width:1600px){
+    .contenedor__intranet table{
+        font-size: 15px !important;
+    }
+    
+}
+.contenedor__imagen__intranet img{
+    display: block;
+    margin: auto;
+}
+.codigo_curso,
+.numero__horas,
+.fecha,
+.certificado,
+td a img,
+
+.aula__virtual,
+.materiales,
+.tipo__curso,
+.categoria,
+.span{
+    opacity: 0;
+    display: none;
+}
+
+
+.botonpopup{
+    border: 2px solid rgb(129, 129, 221);
+    padding: 5px;
+    display: block;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    pointer-events: visible;
+}
+.botonpopup:hover{
+    color: white;
+    background-color: rgb(129, 129, 221);
+}
+
+@media (min-width:992px){
+    .codigo_curso,
+    .numero__horas,
+    .fecha,
+    .certificado,
+    .aula__virtual,
+    .materiales,
+    .tipo__curso,
+    .filas .categoria,
+    .span,
+    td a img{
+        opacity: 1;
+        display: table-cell;
+        vertical-align: inherit;
+    }
+   
+    td{
+        display: table-cell;
+        vertical-align: inherit;
+    }
+    td a img{
+        display: block;
+    }
+   
+    
+    .detallesCurso{
+        display: none;
+    }
+    .contenedor__intranet table{
+        font-size: 13px;
+    }
+    .botonpopup{
+        display: none;
+    }
+
+}
+
+@media (max-width:900px){
+
+    td span{
+        display: none !important;
+    }
+}
+
+
+/*Ventan modal*/
+
+.ventanaModal{
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .3s ease-in;
+    margin-bottom: 30px;
+    display: none;
+}
+@media(max-height:500px){
+    .contenedor_modal{
+        overflow: scroll;
+    }
+
+   
+}
+.contenedor_modal{
+    pointer-events: none;
+    margin: 10px 5px;
+    padding: 20px;
+    border-radius: 20px;
+    max-width:500px;
+    background-color: white;
+}
+@media(min-height:700px){
+    .contenedor_modal{
+        margin: 40px 5px;
+    }
+
+   
+
+}
+@media(min-height:800px){
+    .contenedor_modal{
+        margin: 50px 5px;
+    }
+}
+@media(min-height:900px){
+    .contenedor_modal{
+        margin: 100px 5px;
+    }
+
+    
+}
+
+.modal__close{
+    font-size: 15px;
+    pointer-events: visible;
+    color: white;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    width: 100px;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition:background-color .3s ;
+    background-color: #e4252a;
+}
+.modal__close:hover{
+    color: white;
+    background-color:#ad1c21;
+}
+.modal__close:visited{
+    color: white;
+}
+.btncertificado{
+    border-radius: 10px;
+    padding: 5px 20px;
+    pointer-events: visible;
+    color: white;
+    background-color: #e4252a;
+    display: inline-block;
+    margin: 0;
+}
+.btncertificado:visited{
+    color: white;
+}
+.btncertificado:hover{
+    color: white;
+    background-color: #c51e23;
+
+}
+@media (min-width:500px){
+    .btncertificado{
+        margin-top: 10px;
+    }
+
+   
+}
+.btncertificadoNone{
+    display: none;
+    color: white;
+    background-color: #f39c12;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.contenedor_campo{
+    min-height: 50px;
+    margin-bottom: 5px;
+    border: solid 1px #003e99;
+    padding: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:500px){
+    .contenedor_campo{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+   
+    
+}
+.contenedor_modal .contenedor_campo span{
+    font-size: 15px;
+
+}
+.contenedor_modal .contenedor_campo p{
+    text-align: right;
+    font-size: 13px;
+}
+.contenedor_modal .contenedor_campo a{
+    font-size: 13px;
+    text-align: right;
+}
+
+.btnMateriales{
+    border-radius: 10px;
+    background-color: #003e99;
+    color: white;
+    padding:  5px 20px;
+    pointer-events: visible;
+    margin: 0;
+}
+
+.btnMaterialesMod{
+    opacity: 0;
+}
+.btnAula{
+    color: white;
+    background-color: #003e99;
+    padding:  5px 20px;
+    pointer-events: visible;
+    pointer-events: visible;
+    margin: 0;
+    border-radius: 10px;
+}
+.btnAula:visited{
+    color: white;
+}
+#campoOchoMod{
+    display: none;
+    pointer-events: none;
+    opacity: 0;
+}
+#campoSieteMod{
+    display: none;
+    pointer-events: none;
+    opacity: 0;
+}
+@media (min-width:500px){
+    .btncertificadoNone{
+        margin-top: 10px;
+    }
+
+  
+}
+.icono__cerrar{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/*Enlaces de interes dentro de intranet*/
+.enlacesInteres{
+    max-width: 600px;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.enlacesInteres__heading{
+    text-align: center;
+    font-weight: bold;
+    color: #195EC8;
+    margin: 20px 0 30px 0;
+}
+@media(min-width:1600px){
+    .enlacesInteres{
+        max-width: 1000px;
+        margin: 0 auto;
+        width: 90%;
+        height: 240px;
+    }
+}
+.enlacesInteres .boxEnlaces img{
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+}
+.enlacesInteres .boxEnlaces h3{
+    text-align: center;
+    color: #2F384B;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 13px;
+}
+.enlacesInteres .boxEnlaces .boxEnlaces__btn{
+    /* text-transform: lowercase; */
+    display: block;
+    width: 100px;
+    margin: auto;
+    background-color: #195EC8;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all .3s ease;
+    font-size: 10px;
+}
+.enlacesInteres .boxEnlaces .boxEnlaces__btn:hover{
+    /* transform: scale(1.02); */
+    background-color: #28E4F0;
+    color: black;
+}
+.enlacesInteres .boxEnlaces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+@media(min-width:768px){
+    .enlacesInteres .boxEnlaces{
+        flex-direction: row;
+        justify-content: center;
+        row-gap: 0;
+        /* column-gap: 10px; */
+    }
+}
+.box{
+    margin: auto;
+    padding: 10px 0 20px 0;
+    width: 130px;
+    height: 160px;
+    box-shadow: 0 0 20px 1px rgb(177, 163, 163);
+}

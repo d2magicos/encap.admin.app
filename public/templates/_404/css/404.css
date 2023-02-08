@@ -1,0 +1,64 @@
+.container404 {
+    width: 100%;
+    height: calc(100vh - 40px);
+}
+
+.container404 .message {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnReturn {
+    background: rgb(42, 132, 201);
+    border: 2px solid rgb(42, 132, 201);
+    padding: .65rem .75rem;
+    margin: .65rem 0;
+    display: inline-block;
+    border-radius: 8px;
+    *margin: 0;
+    font-weight: 600;
+}
+
+.btnReturn:hover {
+    background: none;
+    border: 2px solid rgb(42, 132, 201);
+    color: #fff;
+}
+
+.error-title {
+    font-size: 5.7rem;
+    margin-bottom: .35rem;
+}
+
+.error-subtitle {
+    font-size: 18px;
+    color: rgb(190, 190, 190);
+    padding: 0 .25rem;
+}
+
+.imagen-robot404 {
+    width: 360px;
+}
+
+@media screen and (max-width: 992px) {
+    .error-title {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .error-message {
+        padding: 0 1rem;
+    }
+
+    .error-subtitle {
+        text-align: center;
+    }
+
+    .footer-message {
+        width: 100%;
+        text-align: center;
+    }
+}
