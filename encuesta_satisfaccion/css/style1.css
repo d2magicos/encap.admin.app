@@ -1,0 +1,464 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro',sans-serif;
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.sweet-alert h2 {
+    color: red !important;
+}
+
+.sweet-alert p {
+
+    font-size: 20px !important;
+   
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+.body{
+    background-color:#07369e;
+    display: flex;
+    justify-content: center;
+}
+.header__imagen img{
+    width: 250px;
+    margin: 50px auto;
+}
+@media (min-width:768px){
+    .header__imagen img{
+        width: 300px;
+        margin: 50px auto;
+    }
+
+   
+}
+.header__texto{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+@media (min-width:768px){
+    .header__texto{
+        font-size: 30px;  
+    }
+}
+.botones{
+    margin: 10px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botones__boton:nth-child(2){
+    padding-bottom: 45px;
+}
+.botones__boton:nth-child(3){
+    padding-bottom: 40px;
+}
+.botones__boton:nth-child(4){
+    padding-bottom: 43px;
+}
+@media (min-width:768px){
+    .botones{
+        justify-content: center;
+        column-gap: 50px;
+    }
+}
+.botones button{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #192440;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+}
+.botones button:hover{
+    background-color: white !important;
+    color: black !important;
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+@media (min-width:768px){
+    .botones button{
+        padding: 20px 30px;
+    }
+}
+.boton-activo{
+    color: #000000;
+    background-color: #ffffff;
+    
+    transform: scale(1.2);
+}
+.botones__boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones__boton img{
+    width: 50px;
+    transform: translatey(60px);
+    opacity: 0;
+    transition: transform .6s ease-out;
+}
+.botones__boton:hover img{
+    opacity: 1;
+    transform: translateY(-10px);
+}
+.calificacion{
+    margin-top: 2px;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+}
+@media (min-width:768px){
+    .calificacion{
+        font-size: 15px;
+    }
+   
+}
+.calificacion_uno,
+.calificacion_cinco{
+    max-width: 50px;
+}
+.calificacion_dos,
+.calificacion_tres,
+.calificacion_cuatro{
+    display: none;
+}
+.calificacion_uno,
+.calificacion_cinco{
+    line-height: 2;
+}
+@media (min-width:768px){
+    .calificacion_uno,
+    .calificacion_cinco{
+        max-width: 71px;
+    }
+    .calificacion_dos,
+    .calificacion_tres,
+    .calificacion_cuatro{
+        display: block;
+        margin-bottom: 0;
+    }
+}
+
+.contenedor__form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario textarea{
+    width: 300px;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 20px;
+    border-bottom: 5px solid rgb(136, 126, 126);
+}
+.formulario textarea:focus{
+    box-shadow: 0 0 20px 1px #192440;
+}
+@media (min-width:768px){
+    .formulario textarea{
+        width: 500px;
+    }
+}
+@media (min-width:992px){
+    .formulario textarea{
+        width: 700px;
+    }
+
+   
+}
+
+@media (max-width:992px){
+    .contacto__texto p mark {
+     
+        padding: 0px 10px !important;
+        
+    }
+
+   
+}
+
+
+
+.btn__enviar{
+    cursor: pointer;
+    color: white;
+    width:200px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #192440;
+    font-weight: bold;
+    font-size: 20px;
+    transition: transform .3s ease-in-out;
+    border-bottom:5px solid #131a2c;
+}
+.volver__inicio{
+    width:200px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #192440;
+    font-weight: bold;
+    font-size: 20px;
+    transition: transform .3s ease-in-out;
+    border-bottom:5px solid #131a2c;
+}
+.btn__enviar:hover,
+.volver__inicio:hover{
+    transform: scale(1.1);
+}
+.btn__enviar:visited,
+.volver__inicio:visited{
+    color: white;
+}
+
+
+/*Pagina de encuesta enviada*/
+.body__pagdos{
+    max-width: 1200px;
+    width: 90%;
+    background-color:#07369E;
+    margin: 0 auto;
+    color: white;
+}
+.header__imagen__pagdos{
+    margin: 500px 0;
+}
+.enviando__contenido{
+    color: black;
+    background-color: white;
+    margin-top:100px ;
+    /* margin-top:50px; */
+    display: flex;
+    justify-content: center;
+    min-width: 324px;
+    max-width: 580px;
+    margin: 60px auto 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+@media(min-width:768px){
+    .enviando__contenido{
+        margin: 80px auto 40px auto; 
+    }
+}
+.enviando__textos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.enviando__textos mark{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+.enviando_texto:nth-child(1){
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.enviando_texto:nth-child(2){
+    font-size: 20px;
+    text-align: center
+}
+@media(min-width:768px){
+    .enviando_texto:nth-child(1){
+        font-size: 50px;
+    }
+}
+@media(min-width:992px){
+    .enviando_texto:nth-child(1){
+        font-size: 70px;
+    }
+}
+.enviando__datos{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.enviando__datos ul{
+    list-style-type: circle;
+}
+.enviando__datos ul li{
+    margin-left: 20px;
+}
+.enviando__datos ul li p span{
+    font-weight: bold;
+}
+@media(min-width:768px){
+    .enviando__datos ul li{
+        margin-left: 0;
+    }
+}
+.enviando__datos p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.enviando__datos p span{
+    font-size: 14px;
+    font-family: arial;
+}
+.imagen-gif img{
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+}
+.enviando__contacto{
+    text-align: left;
+    margin-top:30px;
+    border-radius: 20px;
+}
+
+
+.enviando__contacto .contacto__texto{
+    margin: 20px 0;
+}
+
+.contacto__texto p{
+    font-size: 17px;
+}
+.contacto__texto p mark{
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+@media(min-width:768px){
+    .enviando__contacto p mark br{
+        display: none;
+    }
+}
+@media (min-width:540px){
+    .contacto__texto p{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+.contacto__whatsap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media (min-width:768px){
+    .contacto__whatsap{
+        flex-direction: row;
+        gap: 40px;
+    }
+}
+.contacto__whatsap span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contacto__whatsap img{
+    width: 35px;
+    display: inline-block;
+    margin: auto 10px;
+}
+@media (min-width:540px){
+    .contacto__whatsap{
+        justify-content: center;
+        align-items: center;
+    }
+}
+.contacto__mycol,
+.contacto__joseph{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.contacto__mycol a,
+.contacto__joseph a {
+    color: black !important;
+    background-color: white;
+    border: solid 3px transparent;
+    padding: 7px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.contacto__mycol a:hover,
+.contacto__joseph a:hover{
+    border: solid 3px #088231;
+    /* transform: scale(1.1); */
+    color: #088231 !important;
+    transition: .3s ease-in-out;
+}
+
+.contacto__mycol a:visited,
+.contacto__joseph a:visited{
+    color: white;
+}
+.btn_pagdos a.btn_encuesta_enviada{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.enviando__imagen{
+    display: flex;
+    justify-content: center;
+}
+.enviando__imagen img{
+    max-width: 300px;
+}
+@media(min-width:768px){
+    .enviando__imagen img{
+        max-width: 500px;
+    }
+}
+.enviando__texto p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+@media(min-width:768px){
+    .enviando__texto p{
+        font-size: 25px;
+    }
+}
+.btn_pagdos{
+    display: flex;
+    justify-content: center;
+}
+.btn_pagdos a{
+    text-align: center;
+    text-decoration: none;
+}
