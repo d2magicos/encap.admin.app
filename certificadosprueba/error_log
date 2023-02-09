@@ -1,0 +1,2 @@
+[27-Jul-2022 11:28:22 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/encapedu/sistemas.encap.edu.pe/certificadosprueba/certificados.php on line 130
+[27-Jul-2022 11:34:35 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/encapedu/sistemas.encap.edu.pe/certificadosprueba/certificados.php on line 130

@@ -1,0 +1,5 @@
+.list_departamentos li a,
+.list_provincias li a {
+    color: black;
+    text-decoration: none;
+}

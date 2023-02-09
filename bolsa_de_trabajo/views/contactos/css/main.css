@@ -1,0 +1,14 @@
+#image {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, .52), rgba(6, 71, 128, .73)), url(https://img.freepik.com/foto-gratis/concepto-maqueta-portatil-dispositivo-digital_53876-147915.jpg?w=740&t=st=1674149572~exp=1674150172~hmac=570784b0a4d9e61c1f86b2caaa3ea0f5e4716aa09f6ff011a571f50697e1cca6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+}
+
+#btn_send,
+#btn_send:hover {
+    background-color: #bb0039;
+    color: white;
+    border-radius: 10px;
+}

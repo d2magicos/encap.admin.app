@@ -1,0 +1,56 @@
+footer {
+    background-color: #142441;
+}
+
+.descrip {
+    color: rgb(198, 197, 197);
+}
+
+.list_contact,
+.list_enlaces {
+    list-style: none;
+    color: rgb(198, 197, 197);
+    margin: 0;
+    padding: 0;
+}
+
+.list_contact>li>a,
+.list_enlaces>li>a {
+    color: rgb(198, 197, 197);
+    text-decoration: none;
+}
+
+.list_contact>li,
+.list_enlaces>li {
+    margin-bottom: 8px;
+}
+
+.list_enlaces>li>a>i {
+    margin-right: 10px;
+}
+
+.list_enlaces>li:hover a {
+    color: white;
+}
+
+.footer_end {
+    background-color: #111e38;
+    color: white;
+}
+
+.footer_end>label>a {
+    color: #034BB8;
+    text-decoration: none;
+}
+
+.footer_end>label>a:hover {
+    color: #109cec;
+}
+
+#footer {
+    background-image: url("../../../public/image/home/encap-blanco.png");
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}

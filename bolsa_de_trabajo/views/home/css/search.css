@@ -1,0 +1,17 @@
+#result_message {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#text_search {
+    font-weight: bolder;
+    font-size: 15px;
+    color: dodgerblue;
+}
+
+#text_depa {
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(255, 139, 30);
+}

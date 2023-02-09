@@ -1,0 +1,21 @@
+
+# BEGIN WordPress
+# Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /cursos/index.php [L]
+</IfModule>
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^sistemas.encap.edu.pe/bolsa_de_trabajo [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.sistemas.encap.edu.pe/bolsa_de_trabajo [NC]
+RewriteRule ^(.*)$ http://buscatuempleo.pe/$1 [L,R=301,NC]
+
+# END WordPress

@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80% !important;
+    margin: 2%;
+}
+.div-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 1vw 0px;
+    position: relative;
+    background-color: dodgerblue;
+    border-bottom: 5px solid orange;
+}
+
+.subdiv-title1>img{
+    padding-left: 1vw !important;
+}
+/* .subdiv-title1{
+    width: 15%;
+} */
+.subdiv-title2{
+    width: 100%;
+}
+.div-title >.subdiv-title2 >h2{
+    width: 100%;
+    text-align: center;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div-mensaje{
+    width: 100%;
+    padding-top: 20px !important;
+    position: relative;
+}
+.div-mensaje p{
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}

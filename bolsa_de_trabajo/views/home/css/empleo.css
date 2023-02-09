@@ -1,0 +1,69 @@
+.header_empleo,
+.body_empleo {
+    padding: 15px;
+    box-shadow: 1px 2px 2px 3px #e4e7ed, 0px 0px 0px 1px #e4e7ed;
+}
+
+.header_empleo h4 {
+    color: #034bb8;
+    font-weight: bold;
+}
+
+.header_empleo label {
+    color: rgb(101, 101, 101);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.body_empleo label {
+    color: #2f2f2f;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.body_empleo label span {
+    font-weight: 600;
+}
+
+.body_empleo i {
+    color: #034bb8;
+    margin-right: 7px;
+}
+
+/* DETALLES DEL EMPLEO */
+.div_detalle label {
+    font-size: 13px;
+    color: #034bb8;
+    font-weight: 500;
+}
+
+.subtitle_dt {
+    color: #616161;
+}
+
+.btn_enlace,
+.btn_enlace:hover {
+    background-color: #225c93;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.btn_descargar,
+.btn_descargar:hover {
+    background-color: #e54769;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 14px !important;
+}
+
+/* DEtalle basico */
+#div_detalle_basico i {
+    margin-right: 12px;
+}
+
+#div_detalle_basico div {
+    margin-bottom: 4px;
+
+}

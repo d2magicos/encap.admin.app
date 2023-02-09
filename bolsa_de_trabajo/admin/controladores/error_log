@@ -1,0 +1,5 @@
+[18-May-2022 12:59:30 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/encapedu/sistemas.encap.edu.pe/bolsa_de_trabajo/admin/configuraciones/Conexion.php on line 4
+[18-May-2022 12:59:30 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/bolsa_de_trabajo/admin/configuraciones/Conexion.php on line 6
+[18-May-2022 13:00:56 America/New_York] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/encapedu/sistemas.encap.edu.pe/bolsa_de_trabajo/admin/configuraciones/Conexion.php on line 4
+[18-May-2022 13:00:56 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/encapedu/sistemas.encap.edu.pe/bolsa_de_trabajo/admin/configuraciones/Conexion.php on line 4
+[18-May-2022 13:00:56 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/encapedu/sistemas.encap.edu.pe/bolsa_de_trabajo/admin/configuraciones/Conexion.php on line 6

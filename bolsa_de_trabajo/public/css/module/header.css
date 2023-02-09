@@ -1,0 +1,27 @@
+header {
+    background-color: #1c3c68;
+    z-index: 99999;
+}
+
+.red_social_header,
+.red_social_header:hover {
+    color: white;
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.btn_contact,
+.btn_contact:hover {
+    color: white;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn_capacitate,
+.btn_capacitate:hover {
+    background-color: #bb0039;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
