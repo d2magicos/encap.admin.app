@@ -45,12 +45,14 @@ function Cargarleccion(id, nombre, codigohmtl, linkvideo, linkmaterial, linkexam
     console.log(document.getElementById(id).style.color);
     if (document.getElementById(id).style.color != "gray") {
         contclicks++;
-
-        let porcentaje = parseFloat(contclicks / document.getElementById("progreso").getAttribute("lecc") * 100).toFixed(2);
+        let total = document.getElementById("progreso").getAttribute("lecc");
+        let porcentaje = (contclicks / document.getElementById("progreso").getAttribute("lecc") * 100).toFixed(2);
+        console.log(porcentaje + "-" + contclicks + "-" + document.getElementById("progreso").getAttribute("lecc"));
         if (porcentaje > 100) {
             porcentaje = 100;
         }
-        document.getElementById("progress").innerHTML = '<progress  id="progreso" max="100" value="' + porcentaje + '"></progress>&nbsp;&nbsp;&nbsp;<label>' + porcentaje + '% completado</label>';
+        document.getElementById("progress").innerHTML = "";
+        document.getElementById("progress").innerHTML = '<progress  id="progreso" lecm="' + contclicks + '" lecc="' + total + '" max="100" value="' + porcentaje + '"></progress>&nbsp;&nbsp;&nbsp;<label>' + porcentaje + '% completado</label>';
         ActualizarProgreso();
     }
     document.getElementById(id).style.color = "gray";

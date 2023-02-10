@@ -22,6 +22,7 @@ function init() {
     $.post("../controladores/curso.php?op=selectSubCategoria", function(r) {
         $("#idsubcategoria").html(r);
         $('#idsubcategoria').selectpicker('refresh');
+        console.log(r)
 
     });
 
@@ -613,13 +614,22 @@ function mostrar(idcurso) {
         $("#nombre1").val(data.nombre);
         $("#idcategoria").val(data.idcategoria);
         $("#idcategoria").selectpicker('refresh');
+        $("#idsubcategoria").val(data.idsubcategoria);
+        $("#idsubcategoria").selectpicker('refresh');
         $("#n_horas").val(data.n_horas);
         $("#fecha_inicio").val(data.fecha_inicio);
         $("#docente").val(data.docente);
         $("#temario1").val(data.temario);
+        $("#descripcionc").val(data.descripcion_curso);
+        $("#imagenmuestra").show();
+        $("#imagenmuestra").attr("src", "../Imagenes_cursos/" + data.imagen_curso);
+        $("#imagenactual").val(data.imagen_curso);
+        $("#cursoenvivo").val(data.cursoenvivo);
         $("#contexto").val(data.contexto);
+        $("#examen").val(data.examen);
         $("#observaciones").val(data.observaciones);
         $("#enlace").val(data.enlace);
+        $("#walink").val(data.walink);
         $("#aula").val(data.aula);
     })
 }

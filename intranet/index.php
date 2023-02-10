@@ -168,7 +168,7 @@
               consulta = jQuery.parseJSON(data);
               //console.log(consulta.num_documento);
               localStorage.setItem('miusuario',consulta.idpersona);
-           
+              
           
                 $(location).attr("href","http://localhost:2020/encap2023/intranet/intranet2.php");
             //  $(location).attr("href", "https://sistemas.encap.edu.pe/intranet/intranet2.php?consultarid=" + consulta.num_documento);

@@ -9,7 +9,7 @@ $cod_curso = isset($_POST["cod_curso"]) ? limpiarCadena($_POST["cod_curso"]) : "
 $cod_curso2=isset($_POST["idcurso2"])? limpiarCadena($_POST["idcurso2"]):"";
 $idcategoria = isset($_POST["idcategoria"]) ? limpiarCadena($_POST["idcategoria"]) : "";
 $idsubcategoria=isset($_POST["idsubcategoria"])? limpiarCadena($_POST["idsubcategoria"]):"";
-$idsubtipo = isset($_POST["idsubtipocurso"]) ? limpiarCadena($_POST["idsubtipocurso"]) : "";
+$idsubtipo = isset($_POST["idsubtipocurso"]) ? limpiarCadena($_POST["idsubtipocurso"]) : "0";
 $nombre1 = isset($_POST["nombre1"]) ? limpiarCadena($_POST["nombre1"]) : "";
 $nombre = strtoupper($nombre1);
 $nombreModulo=isset($_POST["nombrem1"])? limpiarCadena($_POST["nombrem1"]):"";
@@ -75,6 +75,21 @@ switch ($_GET["op"]) {
             $etiqueta = "ENCAP13-SG";
         }
 
+        if (!file_exists($_FILES['imagen']['tmp_name']) || !is_uploaded_file($_FILES['imagen']['tmp_name']))
+		{
+			$imagen=$_POST["imagenactual"];
+		}
+		else 
+		{
+			$ext = explode(".", $_FILES["imagen"]["name"]);
+			if ($_FILES['imagen']['type'] == "image/jpg" || $_FILES['imagen']['type'] == "image/jpeg" || $_FILES['imagen']['type'] == "image/png")
+			{
+				$imagen =$_FILES['imagen']['name'] ;
+				move_uploaded_file($_FILES["imagen"]["tmp_name"], "../Imagenes_cursos/" . $imagen);
+			}
+		}
+
+
         if ($cod_curso = $cod_curso) {
             $cod_curso = $_POST["cod_curso"];
         } else {
@@ -85,11 +100,11 @@ switch ($_GET["op"]) {
         }
 
         if (empty($idcurso)) {
-            $rspta = $cursos->insertar($cod_curso, $nombre, $idcategoria, $idsubtipo, $n_horas, $fecha_inicio, $docente, $temario, $contexto, $observaciones, $enlace, $aula);
+            $rspta = $cursos->insertar($cod_curso, $nombre, $idcategoria, $idsubtipo, $n_horas, $fecha_inicio, $docente, $temario,$descripcion, $imagen,$idsubcategoria,$cursoenvivo,$contexto,$examen, $observaciones, $enlace,$walink, $aula);
             echo $rspta ? "Curso registrado" : "Curso no se pudo registrar";
             echo mysqli_error($conexion);
         } else {
-            $rspta = $cursos->editar($idcurso, $cod_curso, $nombre, $idcategoria,$idsubtipo, $n_horas, $fecha_inicio, $docente, $temario, $contexto, $observaciones, $enlace, $aula);
+            $rspta = $cursos->editar($idcurso,$cod_curso, $nombre, $idcategoria, $idsubtipo, $n_horas, $fecha_inicio, $docente, $temario,$descripcion, $imagen,$idsubcategoria,$cursoenvivo,$contexto,$examen, $observaciones, $enlace,$walink, $aula);
             echo $rspta ? "Curso actualizado" : "Curso no se pudo actualizar";
         }
         break;

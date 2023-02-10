@@ -11,10 +11,10 @@ Class Curso
 	}
 
     //    Implementamos un método para insertar registros
-	public function insertar($cod_curso, $nombre, $idcategoria, $idsubtipo, $n_horas, $fecha_inicio, $docente, $temario, $contexto, $observaciones, $enlace, $aula)
+	public function insertar($cod_curso, $nombre, $idcategoria, $idsubtipo, $n_horas, $fecha_inicio, $docente, $temario, $descripcion,$imagen,$idsubcategoria,$cursoenvivo,$contexto,$examen, $observaciones, $enlace, $walink,$aula)
     {
-        $sql = "INSERT INTO cursos (cod_curso, nombre, idcategoria, idsubtipo, n_horas, fecha_inicio, docente, temario, contexto, observaciones, enlace, aula, condicion)
-				VALUES ('$cod_curso', '$nombre', '$idcategoria', '$idsubtipo', '$n_horas', '$fecha_inicio', '$docente', '$temario', '$contexto', '$observaciones', '$enlace', '$aula', '1')";
+        $sql = "INSERT INTO cursos (cod_curso, nombre, idcategoria, idsubtipo, n_horas, fecha_inicio, docente, temario,,descripcion_curso,imagen_curso,idsubcategoria,cursoenvivo, contexto,examen, observaciones, enlace,walink, aula, condicion)
+				VALUES ('$cod_curso', '$nombre', '$idcategoria', '$idsubtipo', '$n_horas', '$fecha_inicio', '$docente', '$temario','$descripcion','$imagen','$idsubcategoria','$cursoenvivo', '$contexto', $examen','$observaciones', '$enlace','$walink', '$aula', '1')";
         return ejecutarConsulta($sql);
     }
 
@@ -27,9 +27,10 @@ Class Curso
 		}
 
     //    Implementamos un método para editar registros
-    public function editar($idcurso, $cod_curso, $nombre, $idcategoria, $idsubtipo, $n_horas, $fecha_inicio, $docente, $temario, $contexto, $observaciones, $enlace, $aula)
+    public function editar($idcurso,$cod_curso, $nombre, $idcategoria, $idsubtipo, $n_horas, $fecha_inicio, $docente, $temario, $descripcion,$imagen,$idsubcategoria,$cursoenvivo,$contexto,$examen, $observaciones, $enlace, $walink,$aula)
+
     {
-        $sql = "UPDATE cursos SET cod_curso = '$cod_curso', nombre = '$nombre', idcategoria = '$idcategoria', idsubtipo = '$idsubtipo', n_horas = '$n_horas', fecha_inicio = '$fecha_inicio', docente = '$docente', temario = '$temario', contexto = '$contexto', observaciones = '$observaciones', enlace = '$enlace', aula = '$aula'
+        $sql = "UPDATE cursos SET cod_curso = '$cod_curso', nombre = '$nombre', idcategoria = '$idcategoria', idsubtipo = '$idsubtipo', n_horas = '$n_horas', fecha_inicio = '$fecha_inicio', docente = '$docente', temario = '$temario',descripcion_curso='$descripcion',imagen_curso='$imagen',idsubcategoria='$idsubcategoria',cursoenvivo='$cursoenvivo', contexto = '$contexto',examen='$examen', observaciones = '$observaciones', enlace = '$enlace',walink='$walink', aula = '$aula'
 				WHERE idcurso = '$idcurso'";
         return ejecutarConsulta($sql);
     }

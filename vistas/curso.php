@@ -241,6 +241,14 @@ if (!isset($_SESSION["idpersonal"])) {
               </div>
 
               <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Categoria del Curso<spam style="color: #c0392b ; font-size: 18px">*</spam> : </label>
+                <div class="col-sm-4">
+                  <select id="idsubcategoria" name="idsubcategoria" class="form-control selectpicker" data-live-search="true" required></select>
+                </div>
+
+              </div>
+
+              <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">Número de Horas<spam style="color: #c0392b ; font-size: 18px">*</spam> :</label>
                 <div class="col-sm-4">
                   <input type="text" class="form-control" name="n_horas" id="n_horas" maxlength="50" placeholder="Número de Horas" required>

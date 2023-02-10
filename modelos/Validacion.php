@@ -21,7 +21,7 @@ Class Usuario
     	return ejecutarConsulta($sql);
     }
     
-    	//Funci¨®n para verificar el acceso al sistema
+    	//Funciï¿½ï¿½n para verificar el acceso al sistema
 	public function verificarDocente($consultar)
     {
     	$sql="SELECT p.idpersona, p.num_documento,m.idmatricula,p.nombre,p.ciudad,p.departamento,m.cod_matricula, m.qr
@@ -32,7 +32,7 @@ Class Usuario
 
 	public function login($user)
     {
-    	$sql="SELECT num_documento FROM persona WHERE num_documento = '$user' "; 
+    	$sql="SELECT idpersona,num_documento FROM persona WHERE num_documento = '$user' "; 
     	return ejecutarConsulta($sql);
     }
 	

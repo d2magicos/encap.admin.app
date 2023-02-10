@@ -57,6 +57,19 @@ Class Persona
 		return ejecutarConsultaSimpleFila($sql);
 	}
 
+		//Implementar un método para mostrar los datos de un registro a modificar
+		public function mostrarDetalle($idpersona)
+		{
+			$sql="SELECT p.idpersona,(Select COUNT(idprogreso) from progreso  p where p.idcurso=m.idcurso) as leccionestomadas,(Select COUNT(l.idlecciones) from modulos m1 INNER JOIN lecciones l ON l.idmodulo = m1.idmodulo where m1.idcurso=m.idcurso) as leccionestotal,p.tipo_persona,p.nombre, td.nombre as tipo_documento, p.num_documento as documento,p.telefono,p.telefono2,p.email,pa.nombre as pais ,p.departamento,p.ciudad,
+			p.direccion,p.fecha_cumple,p.condicion,p.idpais,p.idtipo_documento, c.nombre as curso, m.idprogreso,c.idcurso
+			FROM persona p INNER JOIN pais pa ON pa.idpais =p.idpais
+			INNER JOIN tipo_documento td ON td.idtipo_documento = p.idtipo_documento 
+			INNER JOIN matricula m ON m.idparticipante = p.idpersona
+			INNER JOIN cursos c ON c.idcurso=m.idcurso
+			WHERE idpersona='$idpersona'";
+			return ejecutarConsulta($sql);
+		}
+
 	//Implementar un método para listar los registros
 	public function listarp()
 	{

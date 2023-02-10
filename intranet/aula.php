@@ -416,7 +416,7 @@ if (isset($_GET['consultarid'])) {
                                 $progreso = ($contlt / $contltc) * 100;
                                 $progreso = round($progreso, 2);
 
-                                echo '<script>document.getElementById("progress").innerHTML=\'<progress lecm="' . $contlt . '" lecc="' . $contltc . '" id="progreso" max="100" value="' . $progreso . '"></progress>&nbsp;&nbsp;&nbsp;<label>' . $progreso . '% completado</label>\'</script>';
+                                echo '<script>document.getElementById("progress").innerHTML="";document.getElementById("progress").innerHTML=\'<progress lecm="' . $contlt . '" lecc="' . $contltc . '" id="progreso" max="100" value="' . $progreso . '"></progress>&nbsp;&nbsp;&nbsp;<label>' . $progreso . '% completado</label>\'</script>';
                                 $contl = 0;
 
                                 echo '</div>' .

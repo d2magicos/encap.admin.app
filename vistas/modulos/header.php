@@ -470,6 +470,12 @@ $cantidadSPG=$regv->cantidad;
               </a>                
             </li>';
             echo '<li class="treeview">
+              <a href="subcategorias.php">
+              &nbsp<i class="fa fa-th"></i>
+                <span>Categorias de Cursos</span>
+              </a>                
+            </li>';
+            echo '<li class="treeview">
             <a href="certificados.php">
             &nbsp<i class="fa fa-file"></i>
               <span>Plantillas</span>

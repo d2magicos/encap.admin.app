@@ -51,6 +51,21 @@ switch ($_GET["op"]){
  		echo json_encode($rspta);
 	break;
 
+
+	case 'mostrarDetalle':
+		$rspta4=$persona->mostrarDetalle($idpersona);
+		
+		$tabla=" <div style='padding:10px'><table class='table table-striped table-bordered table-condensed table-hover dataTable'><th>ID</th><th>Curso</th><th>Progreso</th>";
+		while ($reg=$rspta4->fetch_object()){
+			$tabla.="<tr><td>".$reg->idcurso."</td>";
+			$tabla.="<td>".$reg->curso."</td>";
+			$tabla.=(($reg->leccionestomadas)>0)?"<td>".(number_format($reg->leccionestomadas/$reg->leccionestotal,2,'.','')*100)." %</td></tr>":"<td>0"." %</td></tr>";
+						}
+						$tabla.="</table></div>";	
+
+						echo $tabla;
+	break;
+
 	case 'listarp':
 		$rspta=$persona->listarp();
  		//Vamos a declarar un array
@@ -72,9 +87,11 @@ switch ($_GET["op"]){
 				"11"=>($reg->condicion)?'<span class="badge bg-green">ACTIVADO</span>':
 					'<span class="badge bg-red">DESACTIVADO</span>',
 				"12"=>($reg->condicion)?'<button class="btn btn-warning btn-xs" onclick="mostrar('.$reg->idpersona.')"><i class="fa fa-pencil"></i></button>'.
-					' <button class="btn btn-danger btn-xs" onclick="desactivar('.$reg->idpersona.')"><i class="fa fa-close"></i></button>':
+				' <button class="btn btn-success btn-xs" onclick="mostrarDetalle('.$reg->idpersona.')"><i class="fa fa-file"></i></button>'.	
+				' <button class="btn btn-danger btn-xs" onclick="desactivar('.$reg->idpersona.')"><i class="fa fa-close"></i></button>':
 					'<button class="btn btn-warning btn-xs" onclick="mostrar('.$reg->idpersona.')"><i class="fa fa-pencil"></i></button>'.
 					' <button class="btn btn-primary btn-xs" onclick="activar('.$reg->idpersona.')"><i class="fa fa-check"></i></button>'.
+					' <button class="btn btn-success btn-xs" onclick="mostrarDetalle('.$reg->idpersona.')"><i class="fa fa-file"></i></button>'.
  	 				' <button class="btn btn-danger btn-xs" onclick="eliminar('.$reg->idpersona.')"><i class="fa fa-trash"></i></button>'
  				);
  		}
