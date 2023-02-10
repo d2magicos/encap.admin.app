@@ -85,6 +85,117 @@ if (!isset($_SESSION["idpersonal"])) {
     <!--Fin-Contenido-->
 
     <!-- Modal -->
+    <div class="modal fade" id="myModalLec" tabindex="-1" role="dialog">
+
+      <div class="modal-dialog modal-lg" style="height:800px;    z-index: 15;">
+
+        <div class="modal-content">
+          <!-- form -->
+          <form class="form-horizontal" role="form" name="formulariolec" id="formulariolec" method="POST">
+
+            <div class="modal-header" style="background:#151e38; color:white">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title; text-center">Formulario de Leccion</h4>
+            </div>
+
+            <div class="modal-body panel-body" style="padding: 20px; ">
+
+              <div class="form-group">
+
+                <label for="name" class="col-sm-2 control-label">Curso <spam style="color: #c0392b ; font-size: 18px">*
+                  </spam> :</label>
+                <div class="col-sm-10">
+                  
+
+                  <input onClick="this.select();" style="width:100%" class="form-control" type="text" id="descripcion" name="descripcion" autocomplete="off" placeholder="Ingrese el nombre del producto" disabled>
+                  <div style="width:100%" id="productslist">
+                  </div>
+
+                </div>
+              </div>
+
+              <div id="section_put">
+
+                <div class="form-group">
+
+
+                  <div class="col-sm-10" style="display:none">
+                    <label for="name" class="col-sm-2 control-label">Modulos:<spam style="color: #c0392b ; font-size: 18px">*
+                      </spam> : </label>
+                    <input type="text" class="form-control" name="idcursom" id="idcursom" maxlength="50" placeholder="id" required>
+                    <select id="idcursos" name="idcursos" class="form-control" required>
+                      <option value="-1">Seleccione un modulo</option>
+                    </select>
+                  </div>
+                
+                  <label for="name" class="col-sm-2 control-label">Titulo de la leccion<spam style="color: #c0392b ; font-size: 18px">*</spam> :</label>
+                  <div class="col-sm-10">
+                    <input style="display:none" class="form-control" id="idleccion" name="idleccion"></input>
+                    <input style="display:none" class="form-control" id="idc" name="idc"></input>
+                    <input type="text" class="form-control" name="lec_titulo" id="lec_titulo" maxlength="50" placeholder="Titulo de la leccion" required>
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+
+                  <label for="name" class="col-sm-2 control-label">Codigo HTML<spam style="color: #c0392b ; font-size: 18px">*</spam> : </label>
+                  <div class="col-sm-10">
+                    <textarea type="text" class="form-control" name="lec_html" id="lec_html" maxlength="2000" placeholder="Codigo HTML" style="height:300px"></textarea>
+                  </div>
+                </div>
+
+
+
+
+                <div class="form-group">
+                  <label for="name" class="col-sm-2 control-label">Enlace de video:<spam style="color: #c0392b ; font-size: 18px">*</spam> :</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="video" id="video" maxlength="500" placeholder="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="name" class="col-sm-2 control-label">Duracion de video:<spam style="color: #c0392b ; font-size: 18px">*</spam> :</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="duracion" id="duracion" maxlength="500" placeholder="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="name" class="col-sm-2 control-label">Enlace de material<spam style="color: #c0392b ; font-size: 18px">*</spam> :</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="material" id="material" maxlength="500" placeholder="">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+
+                  <label for="name" class="col-sm-2 control-label">Enlace de examen: </label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="examen" id="examen" maxlength="500" placeholder="Campo Opcional">
+                  </div>
+                </div>
+
+
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger pull-left" onclick="cancelarforml()"><i class="fa fa-times"></i> Cerrar</button>
+                  <button class="btn btn-primary" type="button" onclick="guardaryeditarLecciones()" id="btnGuardarLeccion"><i class="fa fa-save"></i> Guardar Leccion</button>
+                </div>
+
+
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Fin modal -->
+
+    <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
 
       <div class="modal-dialog modal-lg" style="height:800px;">
@@ -160,10 +271,50 @@ if (!isset($_SESSION["idpersonal"])) {
               </div>
 
               <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Imagen Curso (Sólo JPG o JPEG):</label>
+                <div class="col-sm-6">
+                  <input type="file" accept="image/jpeg" class="form-control" accept="image/*" name="imagen" id="imagen" onchange="document.getElementById('imagenmuestra').src = window.URL.createObjectURL(this.files[0]);document.getElementById('imagenactual').value=document.getElementById('imagen').value.replace('C:\\fakepath\\','');document.getElementById('imagenmuestra').style.display='block'">
+                  <input type="hidden" name="imagenactual" id="imagenactual" value="">
+                  <img src="" width="150px" height="120px" id="imagenmuestra" style="display: none;">
+
+
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Descripción del curso: </label>
+                <div class="col-sm-10">
+                  <textarea type="text" class="form-control" name="descripcionc" id="descripcionc" maxlength="2000" placeholder="Campo Opcional" style="height:300px"></textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Proximo Curso en vivo: </label>
+                <div class="col-sm-10">
+                  <textarea type="text" class="form-control" name="cursoenvivo" id="cursoenvivo" maxlength="2000" placeholder="Campo Opcional" style="height:300px"></textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">Contexto<spam style="color: #c0392b ; font-size: 18px">*
                   </spam> :</label>
                 <div class="col-sm-10">
                   <textarea class="form-control" name="contexto" id="contexto" maxlength="800" placeholder="Organizado por la Escuela Nacional de Capacitación y Actualización Profesional."></textarea>
+                </div>
+              </div>
+
+              <div class="form-group" style="display: none;">
+                <P class="text-center" style="color: red">Ejemplo: *wa.link/45621*</P>
+                <label for="name" class="col-sm-2 control-label">WALINK: </label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="walink" id="walink" maxlength="200" placeholder="Campo Opcional">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Examen: </label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" name="examen" id="examen" maxlength="200" placeholder="Examen del curso"></textarea>
                 </div>
               </div>
 
@@ -233,6 +384,70 @@ if (!isset($_SESSION["idpersonal"])) {
     </div>
     <!-- Fin modal -->
 
+    
+    <!-- Modal MODULOS -->
+    <div class="modal fade" id="myModalModulos" tabindex="-1" role="dialog">
+
+      <div class="modal-dialog modal-lg" style="height:800px;">
+
+        <div class="modal-content">
+          <!-- form -->
+          <form class="form-horizontal" role="form" name="formulario" id="formularioModulo" method="POST">
+
+            <div class="modal-header" style="background:#151e38; color:white">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title; text-center">Formulario de Modulo</h4>
+            </div>
+
+            <div class="modal-body panel-body" style="padding: 20px; ">
+
+
+
+              <div class="form-group">
+                <label for="name" class="col-sm-3 control-label">Codigo del curso<spam style="color: #c0392b ; font-size: 18px">*</spam> :</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="cod_curso2" id="cod_curso2" maxlength="50" placeholder="Codigo del curso" readonly>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <P class="text-center" style="color: red">Ejemplo: *MODULO I: ASISTENTE ADMINISTRATIVO EN LA GESTIÓN PÚBLICA*</P>
+                <label for="name" class="col-sm-2  control-label">Nombre del modulo:<spam style="color: #c0392b ; font-size: 18px">*</spam> :</label>
+               
+                <div class="col-sm-7">
+                  <input type="hidden" name="idcurso2" id="idcurso2">
+                  <input type="hidden" name="id" id="id">
+                  <input type="text" class="form-control" name="nombrem1" id="nombrem1" maxlength="250" placeholder="Ingrese el Nombre del Modulo" required>
+                
+                </div>
+                <div class="col-sm-2">
+                     <button class="btn btn-primary" type="button" onclick="guardaryeditarModulo()" id="btnGuardar2"><i class="fa fa-save"></i> Agregar Modulo</button>
+          
+                </div>
+              </div>
+
+
+              <label for="name" class="col-sm-2 control-label">Modulos Creados: </label>
+              <div class="form-group">
+               
+                <div class="col-sm-12">
+
+                  <div class="col-sm-12" id="modulos1"></div>
+
+                </div>
+
+
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger pull-left" onclick="cancelarformM()" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                 </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
   <?php
   } else {
     require 'notieneacceso.php';

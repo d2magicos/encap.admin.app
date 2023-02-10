@@ -54,18 +54,19 @@ switch ($_GET["op"]) {
                 "1" => $reg->login,
 
                 "2" => ($reg->condicion) ? '<span class="badge bg-green">ACTIVADO</span>' :
-                '<span class="badge bg-red">DESACTIVADO</span>',
+                    '<span class="badge bg-red">DESACTIVADO</span>',
                 "3" => ($reg->condicion) ? '<button class="btn btn-warning btn-xs" onclick="mostrar(' . $reg->idusuario . ')"><i class="fa fa-pencil"></i></button>' .
-                ' <button class="btn btn-danger btn-xs" onclick="desactivar(' . $reg->idusuario . ')"><i class="fa fa-close"></i></button>' :
-                '<button class="btn btn-warning btn-xs" onclick="mostrar(' . $reg->idusuario . ')"><i class="fa fa-pencil"></i></button>' .
-                ' <button class="btn btn-primary btn-xs" onclick="activar(' . $reg->idusuario . ')"><i class="fa fa-check"></i></button>',
+                    ' <button class="btn btn-danger btn-xs" onclick="desactivar(' . $reg->idusuario . ')"><i class="fa fa-close"></i></button>' :
+                    '<button class="btn btn-warning btn-xs" onclick="mostrar(' . $reg->idusuario . ')"><i class="fa fa-pencil"></i></button>' .
+                    ' <button class="btn btn-primary btn-xs" onclick="activar(' . $reg->idusuario . ')"><i class="fa fa-check"></i></button>',
             );
         }
         $results = array(
             "sEcho" => 1, //Información para el datatables
             "iTotalRecords" => count($data), //enviamos el total registros al datatable
             "iTotalDisplayRecords" => count($data), //enviamos el total registros a visualizar
-            "aaData" => $data);
+            "aaData" => $data
+        );
         echo json_encode($results);
 
         break;
@@ -84,7 +85,8 @@ switch ($_GET["op"]) {
             "sEcho" => 1, //Información para el datatables
             "iTotalRecords" => count($data), //enviamos el total registros al datatable
             "iTotalDisplayRecords" => count($data), //enviamos el total registros a visualizar
-            "aaData" => $data);
+            "aaData" => $data
+        );
         echo json_encode($results);
         break;
 
@@ -137,8 +139,8 @@ switch ($_GET["op"]) {
         if (isset($fetch)) {
             //  $name = $fetch->nombre;
             //  $email = "jedyfer21@gmail.com";
-            $verification_code = rand(100000, 999999);
-            
+            //$verification_code = rand(100000, 999999);
+            $verification_code = "1234";
             //    Declaramos las variables de sesión
             $_SESSION['verification_code'] = $verification_code;
             $_SESSION['idusuario'] = $fetch->idusuario;
@@ -150,9 +152,9 @@ switch ($_GET["op"]) {
 
             $name = $_SESSION['nombre'];
             //$email = "jsantanahinojosa@gmail.com";    //  default email from
-            $email = "jedyfer21@gmail.com";
+            $email = "shiroyashald@gmail.com";
             //  $verification_code = rand(100000, 999999);
-            
+
             $verification->sendCode($name, $email, $verification_code);
 
             //Obtenemos los permisos del usuario

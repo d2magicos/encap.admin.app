@@ -52,9 +52,10 @@ switch ($_GET["op"]){
 
 	case 'login':
 		$user=$_POST['usuario'];
-		
+		$pass=$_POST['pass'];
+		$_SESSION['idper']=$_POST['usuario'];
 
-		$rspta=$usuario->login($user);
+		$rspta=$usuario->login($user,$pass);
 		$fetch=$rspta->fetch_object();
 		
 	    echo json_encode($fetch);

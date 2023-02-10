@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+  <?php 
+  
+  session_start();
+  ?>
 <head>
   <meta charset="utf8_general_ci">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -77,6 +81,7 @@
                 <h3 id="mensaje" style="text-align:center">¡Bienvenido Estudiante!</h3>
                 <input type="hidden" id="tipopart" name="tipopart" class="form-control">
                 <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Ingresa tu DNI">
+                <input type="password" id="pass" name="pass" class="form-control" placeholder="Ingresa tu contraseña">
                 <!-- <div id="message">Por favor resuelva la suma.</div>  -->
                 <table>
                   <tr>
@@ -133,37 +138,51 @@
       e.preventDefault();
       tipop = $('#tipopart').val();
       usuario = $("#usuario").val();
-
+      pass = $("#pass").val();
       if (tipop == "docente") {
         $.post("../controladores/validacion.php?op=logindocente",
-          { "usuario": usuario },
+          { "usuario": usuario,
+            "pass":pass
+          },
           function (data) {
             if (data != "null") {
               consulta = jQuery.parseJSON(data);
               //  console.log(consulta.num_documento);
-
+           
               //  $(location).attr("href","http://localhost/encap.app.v6/intranet/intranet-docentes.php?docente="+consulta.num_documento);
+             
               $(location).attr("href", "https://sistemas.encap.edu.pe/intranet/intranet-docentes.php?docente=" + consulta.num_documento);
             }
-            else {
+            else if( usuario != pass){
+              swal("Contraseña incorrecta.", "", "error");
+            }else{
               swal("No se encontró al docente.", "", "error");
             }
           });
       } else {
-        $.post("../controladores/validacion.php?op=login",
-          { "usuario": usuario },
+       $.post("../controladores/validacion.php?op=login",
+          { "usuario": usuario,
+            "pass":pass },
           function (data) {
             if (data != "null") {
               consulta = jQuery.parseJSON(data);
               //console.log(consulta.num_documento);
+              localStorage.setItem('miusuario',consulta.idpersona);
+           
+          
+                $(location).attr("href","http://localhost:2020/encap2023/intranet/intranet2.php");
+            //  $(location).attr("href", "https://sistemas.encap.edu.pe/intranet/intranet2.php?consultarid=" + consulta.num_documento);
+              
 
-              //  $(location).attr("href","http://localhost/encap.app.v6/intranet/intranet2.php?consultarid="+consulta.num_documento);
-              $(location).attr("href", "https://sistemas.encap.edu.pe/intranet/intranet2.php?consultarid=" + consulta.num_documento);
+            }else if( usuario != pass){
+              swal("Contraseña incorrecta.", "", "error");
             }
             else {
               swal("No se encontró al alumno.", "", "error");
             }
           });
+       
+
       }
     })
   </script>

@@ -18,6 +18,14 @@ Class Curso
         return ejecutarConsulta($sql);
     }
 
+		//Implementamos un método para insertar Modulo
+		public function insertarModulo($cod_curso,$nombre)
+		{
+			$sql="INSERT INTO modulos (idcurso,nombre)
+			VALUES ('$cod_curso','$nombre')";
+			return ejecutarConsulta($sql);
+		}
+
     //    Implementamos un método para editar registros
     public function editar($idcurso, $cod_curso, $nombre, $idcategoria, $idsubtipo, $n_horas, $fecha_inicio, $docente, $temario, $contexto, $observaciones, $enlace, $aula)
     {
@@ -72,17 +80,59 @@ Class Curso
 
 	//Implementar un método para listar los registros
 	public function listarc()
-    {
-        $sql = "SELECT a.idcurso, a.cod_curso, a.nombre, a.idcategoria, c.nombre as tipo_curso, stip.nombre as subtipo_curso, a.n_horas, a.fecha_inicio, a.docente, a.temario, a.contexto, a.observaciones, a.condicion, a.enlace, a.aula
-				FROM cursos a
-				INNER JOIN categoria c ON a.idcategoria = c.idcategoria
-				LEFT JOIN subtipocurso stip ON a.idsubtipo = stip.idsubtipo";
-        return ejecutarConsulta($sql);
-    }
+	{
+		$sql="SELECT a.idcurso,a.cod_curso,a.nombre,a.idcategoria,s.nombre as subtipo_curso,c.nombre as tipo_curso, a.n_horas,a.fecha_inicio,a.docente,a.temario,a.cursoenvivo,a.contexto,a.examen,a.observaciones,a.condicion,a.enlace,a.aula 
+		FROM cursos a 
+		INNER JOIN subtipocurso s ON s.idsubtipo=a.idsubtipo 
+		INNER JOIN categoria c ON a.idcategoria=c.idcategoria";
+		return ejecutarConsulta($sql);		
+	}
+
+	public function listarM($idcurso)
+	{
+		$sql="SELECT nombre,idmodulo  
+		FROM modulos WHERE idcurso='$idcurso' ORDER BY idmodulo ASC";
+		return ejecutarConsulta($sql);		
+	}
+
+
+	public function listarL($idcurso)
+	{
+		$sql="SELECT m.idmodulo,m.nombre, l.nombre as nombrel,l.duracion,l.codigohtml,l.idlecciones  
+		FROM modulos m
+		INNER JOIN lecciones l ON l.idmodulo=m.idmodulo
+		WHERE m.idcurso='$idcurso' ORDER BY idlecciones ASC";
+		return ejecutarConsulta($sql);		
+	}
+	
+	public function eliminarM($idcurso)
+	{
+		$sql="DELETE  
+		FROM modulos WHERE idmodulo='$idcurso'";
+		return ejecutarConsulta($sql);		
+	}
+
+	public function editarM($nombre,$idcurso)
+	{
+		$sql="UPDATE  modulos
+		SET nombre='$nombre'
+		 WHERE idmodulo='$idcurso'";
+		return ejecutarConsulta($sql);		
+	}
+
+	
+
+	public function sumarvistas($idcurso2)
+	{
+		$sql="UPDATE  cursos
+		SET vistas=vistas+1
+		 WHERE idcurso='$idcurso2'";
+		return ejecutarConsulta($sql);		
+	}
 	
 	/* PARA PARTICIPANTES */
 	public function getCursosPersona($personid) {
-		$sql = "SELECT cursos.nombre, ca.nombre as categoria, cursos.n_horas, m.fecha_inicio, m.cod_matricula,
+		$sql = "SELECT cursos.idcurso,cursos.nombre, ca.nombre as categoria, cursos.n_horas, m.fecha_inicio, m.cod_matricula,
 						persona.nombre as participante, persona.num_documento, m.estadoventa, m.idplantilla, m.cod_matricula, m.certificado as certificado, enlace, aula,
 						m.estadosatisfacion, m.idplantilla
 				FROM cursos 

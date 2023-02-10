@@ -3,14 +3,14 @@
 define("DB_HOST", "localhost");
 
 //nombre de la base de datos
-define("DB_NAME", "encapedu_bdencapsistema");
+define("DB_NAME", "encapdb");
 
 
 //nombre de usuario de base de datos
-define("DB_USERNAME", "encapedu_sistemasencap");
+define("DB_USERNAME", "root");
 
 //conraseña del usuario de base de datos
-define("DB_PASSWORD", "KU(O(6J&CDDWencap2022");
+define("DB_PASSWORD", "1234");
 
 //codificacion de caracteres
 define("DB_ENCODE", "utf8");

@@ -1,11 +1,15 @@
 <?php require "../configuraciones/Conexion.php";?>
 
 <?php
-    if (isset($_GET["consultarid"])) {
-        $doc = $_GET["consultarid"];
+session_start();
+    if (isset($_SESSION['idper'])) {
+        $doc = $_SESSION['idper'];
+    
     } else {
         $doc = null;
     }
+
+   // echo $_SESSION['idper'];
 
     if (isset($_GET["docente"])) {
         $prof = $_GET["docente"];
@@ -44,8 +48,6 @@
     <link rel="stylesheet" href="./css/stars.css">
 </head>
 <body>
-    <?php if ($consulta > 0) { ?>
-    
     <header class="header">
         <div class="container header-container">
             <nav class="main-menu">
@@ -124,8 +126,8 @@
                             </div>
                             <div class="col-xl-3 col-lg-4 col-md-4 link">
                                 <div class="card-link text-center">
-                                    <a href="https://buscatuempleo.pe/" target="_blank">
-                                        <h4 class="link-title">Encuentra tu empleo</h4>
+                                    <a href="https://sistemas.encap.edu.pe/bolsa_de_trabajo/" target="_blank">
+                                        <h4 class="link-title">Convocatoria de trabajo</h4>
                                         <div class="link-img">
                                             <img class="link-img" src="./img/work-tools.png" alt="" width="70px">
                                         </div>
@@ -198,8 +200,8 @@
                     </div>
                     <div class="col mx-3 my-3 link">
                         <div class="card-link text-center">
-                            <a href="https://buscatuempleo.pe/" target="_blank">
-                                <h4 class="link-title">Encuentra tu empleo</h4>
+                            <a href="https://sistemas.encap.edu.pe/bolsa_de_trabajo/" target="_blank">
+                                <h4 class="link-title">Convocatoria de trabajo</h4>
                                 <div class="link-img">
                                     <img class="link-img" src="./img/work-tools.png" alt="" width="70px">
                                 </div>
@@ -225,17 +227,11 @@
             © Todos los derechos reservados <?= date("Y"); ?>
         </div>
     </footer>
-    
-    <?php 
-    } else {
-        require_once('../public/templates/_404/404.php');
-    } 
-    ?>
 
     <?php require_once('./resources/detailsModal.php'); ?>
     <?php require_once('./resources/encuestaModal.php'); ?>
 
-    <script>const personid = "<?= $_GET["consultarid"] ?>";</script>
+    <script>const personid = "<?= $doc?>";</script>
     <script>
         resetButton = () => {
             if ($('input:radio[name=estrellas]').is(':checked')) {

@@ -1,9 +1,10 @@
 <?php
+	session_start();
     //cadena conexion
     require_once "../modelos/Curso.php";
     $cursos = new Curso();
 
-    $idperson = $_GET['idperson'];
+    $idperson = $_SESSION['idper'];
     
     $res = $cursos->getCursosPersona($idperson);
 
@@ -13,7 +14,8 @@
 	
 	$data = Array();
 	while ($courses = $res->fetch_object()) {
-		$btnDetalles = '<a id="btnDetails" codigo="'. $courses->cod_matricula .'" class="btn-details" data-bs-toggle="modal" data-bs-target="#studensModal">Ver curso</a>';
+		//$btnDetalles = '<a id="btnDetails" codigo="'. $courses->cod_matricula .'" class="btn-details" data-bs-toggle="modal" data-bs-target="#studensModal">Ver curso</a>';
+		$btnDetalles = '<a id="btnDetails" codigo="'. $courses->cod_matricula .'" class="btn-details" data-bs-toggle="modal" href="../intranet/aula.php?consultarid='.$courses->idcurso.'">Ver curso</a>';
 		
 		if ($courses->certificado == "SI") {
 			if ($courses->estadosatisfacion == "CONFIRMADO") {

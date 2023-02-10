@@ -4,19 +4,28 @@ require_once "../modelos/Curso.php";
 $cursos = new Curso();
 
 $idcurso = isset($_POST["idcurso"]) ? limpiarCadena($_POST["idcurso"]) : "";
+$idmedit=isset($_POST["idm2"])? limpiarCadena($_POST["idm2"]):"";
 $cod_curso = isset($_POST["cod_curso"]) ? limpiarCadena($_POST["cod_curso"]) : "";
+$cod_curso2=isset($_POST["idcurso2"])? limpiarCadena($_POST["idcurso2"]):"";
 $idcategoria = isset($_POST["idcategoria"]) ? limpiarCadena($_POST["idcategoria"]) : "";
+$idsubcategoria=isset($_POST["idsubcategoria"])? limpiarCadena($_POST["idsubcategoria"]):"";
 $idsubtipo = isset($_POST["idsubtipocurso"]) ? limpiarCadena($_POST["idsubtipocurso"]) : "";
 $nombre1 = isset($_POST["nombre1"]) ? limpiarCadena($_POST["nombre1"]) : "";
 $nombre = strtoupper($nombre1);
+$nombreModulo=isset($_POST["nombrem1"])? limpiarCadena($_POST["nombrem1"]):"";
+$nombreModulo2=isset($_POST["nombrem2"])? limpiarCadena($_POST["nombrem2"]):"";
 $n_horas = isset($_POST["n_horas"]) ? limpiarCadena($_POST["n_horas"]) : "";
 $fecha_inicio = isset($_POST["fecha_inicio"]) ? limpiarCadena($_POST["fecha_inicio"]) : "";
 $docente = isset($_POST["docente"]) ? limpiarCadena($_POST["docente"]) : "";
 $temario1 = isset($_POST["temario1"]) ? limpiarCadena($_POST["temario1"]) : "";
+$cursoenvivo=isset($_POST["cursoenvivo"])? limpiarCadena($_POST["cursoenvivo"]):"";
 $temario = str_replace("\n", "<br>", $temario1);
+$descripcion=isset($_POST["descripcionc"])? limpiarCadena($_POST["descripcionc"]):"";
 $contexto = isset($_POST["contexto"]) ? limpiarCadena($_POST["contexto"]) : "";
+$examen=isset($_POST["examen"])? limpiarCadena($_POST["examen"]):"";
 $observaciones = isset($_POST["observaciones"]) ? limpiarCadena($_POST["observaciones"]) : "";
 $enlace = isset($_POST["enlace"]) ? limpiarCadena($_POST["enlace"]) : "";
+$walink=isset($_POST["walink"])? limpiarCadena($_POST["walink"]):"";
 $aula = isset($_POST["aula"]) ? limpiarCadena($_POST["aula"]) : "";
 
 switch ($_GET["op"]) {
@@ -80,9 +89,16 @@ switch ($_GET["op"]) {
             echo $rspta ? "Curso registrado" : "Curso no se pudo registrar";
             echo mysqli_error($conexion);
         } else {
-            $rspta = $cursos->editar($idcurso, $cod_curso, $nombre, $idcategoria, $n_horas, $fecha_inicio, $docente, $temario, $contexto, $observaciones, $enlace, $aula);
+            $rspta = $cursos->editar($idcurso, $cod_curso, $nombre, $idcategoria,$idsubtipo, $n_horas, $fecha_inicio, $docente, $temario, $contexto, $observaciones, $enlace, $aula);
             echo $rspta ? "Curso actualizado" : "Curso no se pudo actualizar";
         }
+        break;
+
+        case 'guardaryeditarModulo':
+		
+            $rspta=$cursos->insertarModulo($cod_curso2,$nombreModulo);
+            echo $rspta ? "Modulo agregado" : "Modulo no se pudo agregar";
+            echo mysqli_error($conexion);
         break;
 
     case 'desactivar':
@@ -135,6 +151,7 @@ switch ($_GET["op"]) {
                     '<span class="badge bg-green">ACTIVADO</span>' :
                     '<span class="badge bg-red">DESACTIVADO</span>',
                 "12" => ($reg->condicion) ?
+                ' <button class="btn btn-success btn-xs" onclick="mostrarModulo(\''.$reg->idcurso.'\')">Contenido del curso</button></br></br>'.
                     '<button class="btn btn-warning btn-xs" onclick="mostrar(' . $reg->idcurso . ')"><i class="fa fa-pencil"></i></button>' .
                     ' <button class="btn btn-danger btn-xs" onclick="desactivar(' . $reg->idcurso . ')"><i class="fa fa-close"></i></button>' :
                     '<button class="btn btn-warning btn-xs" onclick="mostrar(' . $reg->idcurso . ')"><i class="fa fa-pencil"></i></button>' .
@@ -145,13 +162,114 @@ switch ($_GET["op"]) {
             );
         }
         $results = array(
-            "sEcho" => 1, //Informaci¨®n para el datatables
+            "sEcho" => 1, //Informaciï¿½ï¿½n para el datatables
             "iTotalRecords" => count($data), //enviamos el total registros al datatable
             "iTotalDisplayRecords" => count($data), //enviamos el total registros a visualizar
             "aaData" => $data
         );
         echo json_encode($results);
 
+        break;
+
+        case 'guardarm':
+
+            $rspta2=$cursos->editarM($nombreModulo2,$idmedit);
+    
+            
+             echo "Se Edito.";
+         
+    
+        break;
+    
+        case 'sumarvista':
+    
+            $rspta2=$cursos->sumarvistas($idcurso);
+            echo mysqli_error($conexion);
+            echo $idcurso. "Se sumo.";
+         
+    
+        break;
+    
+    
+        case 'eliminarm':
+    
+            $rspta2=$cursos->eliminarM($idcurso);
+    
+            
+             echo "Se elimino.";
+         
+    
+        break;
+    
+        case 'listarM60':
+    
+            
+            $query1=$cursos->listarM($idcurso);
+            $data = array();
+            foreach ($query1 as $row) {
+                $data['query1'][$row->k] = $row->value;
+            }
+                $query2=$cursos->listarL($idcurso);
+             //Vamos a declarar un array
+             foreach ($query2 as $row){
+                $data['query2'][$row->k] = $row->value;
+            }
+            
+             echo json_encode($data);
+             break;
+    
+             case 'listarM':
+    
+            
+                $rspta=$cursos->listarM($idcurso);
+        
+                 //Vamos a declarar un array
+                 $data= Array();
+                 while ($reg=$rspta->fetch_object()){
+                    $data[]=array(
+                        "1"=>$reg->idmodulo,
+                        "0"=>$reg->nombre
+                        
+                    );
+                 }
+                
+                 echo json_encode($data);
+                 break;
+    
+    
+                 case 'listarL':
+    
+            
+                    $rspta=$cursos->listarL($idcurso);
+            
+                     //Vamos a declarar un array
+                     $data= Array();
+                     while ($reg=$rspta->fetch_object()){
+                        $data[]=array(
+                            "1"=>$reg->idmodulo,
+                            "0"=>$reg->nombrel,
+                            "2"=>$reg->idlecciones
+                        );
+                     }
+                    
+                     echo json_encode($data);
+                     break;
+    
+         case 'listarM2':
+    
+    
+                $rspta=$cursos->listarM($idcurso);
+        
+                 //Vamos a declarar un array
+                 $data= "";
+                 while ($reg=$rspta->fetch_object()){
+                    $data.="<option value='".$reg->idmodulo."'>".$reg->nombre."</option>";
+                    
+                 }
+                
+                 echo $data;
+         
+    
         break;
 
     case "detailsCurso":
@@ -176,11 +294,11 @@ switch ($_GET["op"]) {
             }
 
             if ($reg->enlace != '') {
-                $btnMatAula = '<a class="btn-aulavirtual" target="_blank" href="' . $reg->enlace . '"><img class="img-aula" src="./img/button-materiales.jpg" alt=""><span class="button-Click">Click Aqu¨ª <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 14px;"></i></span></a>';
+                $btnMatAula = '<a class="btn-aulavirtual" target="_blank" href="' . $reg->enlace . '"><img class="img-aula" src="./img/button-materiales.jpg" alt=""><span class="button-Click">Click Aquï¿½ï¿½ <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 14px;"></i></span></a>';
             }
 
             if ($reg->aula != '') {
-                $btnMatAula = '<a class="btn-aulavirtual" target="_blank" href="' . $reg->aula . '"><img class="img-aula" src="./img/button-aula.jpg" alt=""><span class="button-aula-Click">Click Aqu¨ª <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 14px;"></i></span></a>';
+                $btnMatAula = '<a class="btn-aulavirtual" target="_blank" href="' . $reg->aula . '"><img class="img-aula" src="./img/button-aula.jpg" alt=""><span class="button-aula-Click">Click Aquï¿½ï¿½ <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 14px;"></i></span></a>';
             }
 
             $data[] = array(
@@ -194,7 +312,7 @@ switch ($_GET["op"]) {
             );
         }
         $results = array(
-            "sEcho" => 1, //Informaci„1¤7„1¤7n para el datatables
+            "sEcho" => 1, //Informaciï¿½1ï¿½7ï¿½1ï¿½7n para el datatables
             "iTotalRecords" => count($data), //enviamos el total registros al datatable
             "iTotalDisplayRecords" => count($data), //enviamos el total registros a visualizar
             "aaData" => $data
@@ -228,7 +346,7 @@ switch ($_GET["op"]) {
         }
 
         $results = array(
-            "sEcho" => 1, //Informaci„1¤7„1¤7n para el datatables
+            "sEcho" => 1, //Informaciï¿½1ï¿½7ï¿½1ï¿½7n para el datatables
             "iTotalRecords" => count($data), //enviamos el total registros al datatable
             "iTotalDisplayRecords" => count($data), //enviamos el total registros a visualizar
             "aaData" => $data
@@ -246,4 +364,17 @@ switch ($_GET["op"]) {
             echo '<option value=' . $reg->idcategoria . '>' . $reg->nombre . '</option>';
         }
         break;
+
+        
+	case "selectSubCategoria":
+		require_once "../modelos/SubCategoriacurso.php";
+		$subcategoria = new SubCategoriacurso();
+
+		$rspta = $subcategoria->select();
+
+		while ($reg = $rspta->fetch_object())
+				{
+					echo '<option value=' . $reg->id . '>' . $reg->nombre . '</option>';
+				}
+	break;
 }
