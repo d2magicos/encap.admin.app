@@ -173,8 +173,15 @@ if (isset($_GET['consultarid'])) {
                                     <input id="idlecciones" name="idlecciones" value=""></input>
                                 </form>
                                 <h4 id="leccionname" class="title-company">
-                                    <?php echo "1.1. " . $consulta["nombrelec"];
-                                    echo "<p style='float:right;margin-top:8px'><i style='font-size:10px;' class='fa-solid fa-eye'></i> " . $consultap["vistas"] . " vistas</p>";
+                                    <?php 
+                                    
+                                    if($consulta!=null){
+                                        echo "1.1. " . $consulta["nombrelec"];
+                                        echo "<p style='float:right;margin-top:8px'><i style='font-size:10px;' class='fa-solid fa-eye'></i> " . $consultap["vistas"] . " vistas</p>";
+                                     
+                                    }else{
+                                        echo "No se han creado lecciones todavia en este curso.";
+                                    }
                                     ?>
 
                                 </h4><br>

@@ -145,6 +145,19 @@ Class Curso
 
 		return ejecutarConsulta($sql);
 	}
+
+		/* PARA PARTICIPANTES */
+		public function getLeccionesPersona($idcurso) {
+			$sql = "SELECT le.nombre
+			FROM cursos c
+			INNER JOIN matricula m ON c.idcurso = m.idcurso 
+			INNER JOIN modulos mo ON mo.idcurso = c.idcurso	
+			INNER JOIN lecciones le ON le.idmodulo = mo.idmodulo
+			WHERE c.idcurso='$idcurso'";
+	
+			return ejecutarConsulta($sql);
+		}
+		
 	
 	public function getDetailsCurso($matricula) {
 		$sql = "SELECT m.cod_matricula, c.nombre, cat.nombre AS categoria, c.n_horas, m.fecha_inicio, c.enlace, c.aula, m.certificado,

@@ -5,9 +5,9 @@
     $cursos = new Curso();
 
     $idperson = $_SESSION['idper'];
-    
+    $idcurso = isset($_POST["idcurso"]) ? limpiarCadena($_POST["idcurso"]) : "";
     $res = $cursos->getCursosPersona($idperson);
-
+	
 	$btnCertificado = '';
 	$btnDetalles = '';
 	$info = '';
@@ -15,7 +15,15 @@
 	$data = Array();
 	while ($courses = $res->fetch_object()) {
 		//$btnDetalles = '<a id="btnDetails" codigo="'. $courses->cod_matricula .'" class="btn-details" data-bs-toggle="modal" data-bs-target="#studensModal">Ver curso</a>';
-		$btnDetalles = '<a id="btnDetails" codigo="'. $courses->cod_matricula .'" class="btn-details" data-bs-toggle="modal" href="../intranet/aula.php?consultarid='.$courses->idcurso.'">Ver curso</a>';
+		$res2=$cursos->getLeccionesPersona($courses->idcurso);
+		$num_rows = mysqli_num_rows($res2);
+		if($num_rows>0){
+			$btnDetalles = '<a id="btnDetails" codigo="'. $courses->cod_matricula .'" class="btn-details" data-bs-toggle="modal" href="../intranet/aula.php?consultarid='.$courses->idcurso.'">Ver curso</a>';
+		
+		}else{
+			$btnDetalles = '<a id="btnDetails" codigo="'. $courses->cod_matricula .'" class="btn-details" data-bs-toggle="modal" data-bs-target="#studensModal">Ver curso</a>';
+		
+		}
 		
 		if ($courses->certificado == "SI") {
 			if ($courses->estadosatisfacion == "CONFIRMADO") {
